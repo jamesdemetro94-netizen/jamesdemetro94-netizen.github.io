@@ -1,311 +1,73 @@
-export default function TpoRoofing() {
-
-return (
-
-<div className="tpo-page">
-
-
-<section className="tpo-hero">
-
-<h1>TPO Roofing</h1>
-
-<h2>
-Professional TPO Roofing Installation by Maximum Roofing
-</h2>
-
-<p>
-Maximum Roofing provides commercial TPO roofing installation, repair,
-and replacement. Our roofing systems are built for durability,
-energy efficiency, and long-term protection.
-</p>
-
-<a href="/contact" className="tpo-button">
-Get Your Free Roofing Estimate
-</a>
-
-</section>
-
-
-
-
-<section>
-
-<h2>What Is TPO Roofing?</h2>
-
-<p>
-TPO (Thermoplastic Polyolefin) roofing is a single-ply membrane roofing
-system designed for commercial flat and low-slope roofs. It creates a
-strong waterproof barrier that protects buildings from leaks, UV exposure,
-and harsh weather conditions.
-</p>
-
-</section>
-
-
-
-
-<section>
-
-<h2>Why TPO Roofing Is Better</h2>
-
-
-<div className="tpo-grid">
-
-
-<div>
-<h3>20–30 Year Lifespan</h3>
-
-<p>
-A properly installed TPO roof can last approximately 20 to 30 years
-with proper maintenance.
-</p>
-
-</div>
-
-
-
-<div>
-
-<h3>Energy Efficient</h3>
-
-<p>
-The reflective surface helps reduce heat absorption and improves
-energy efficiency.
-</p>
-
-</div>
-
-
-
-<div>
-
-<h3>Waterproof Protection</h3>
-
-<p>
-Heat-welded seams create a strong barrier designed to help prevent leaks.
-</p>
-
-</div>
-
-
-
-<div>
-
-<h3>Weather Resistant</h3>
-
-<p>
-TPO roofing is designed to handle rain, snow, wind, UV exposure,
-and temperature changes.
-</p>
-
-</div>
-
-
-</div>
-
-</section>
-
-
-
-
-
-<section>
-
-
-<h2>
-TPO Roofing Project Near Staten Island Mall
-</h2>
-
-
-<p>
-
-Maximum Roofing recently completed a TPO roofing project near the Staten Island
-Mall. Our team installed a durable commercial roofing system focused on
-long-term protection and performance.
-
-</p>
-
-
-<p>
-
-The project included roof preparation, TPO membrane installation,
-heat-welded seams, flashing details, and final inspection.
-
-</p>
-
-
-</section>
-
-
-
-
-
-<section>
-
-<h2>Why Choose Maximum Roofing?</h2>
-
-
-<p>
-
-Maximum Roofing delivers professional roofing solutions with quality
-workmanship and attention to detail. Whether you need a new TPO roof,
-repair, or replacement, our team is ready to help.
-
-</p>
-
-
-<a href="/contact" className="tpo-button">
-
-Schedule Your Inspection
-
-</a>
-
-
-</section>
-
-
-
-<style jsx>{`
-
-
-.tpo-page {
-
-font-family: Arial, sans-serif;
-
-}
-
-
-
-.tpo-hero {
-
-background:#0d3b66;
-
-color:white;
-
-padding:100px 20px;
-
-text-align:center;
-
-}
-
-
-
-.tpo-hero h1 {
-
-font-size:55px;
-
-}
-
-
-
-.tpo-hero p {
-
-max-width:850px;
-
-margin:auto;
-
-font-size:20px;
-
-}
-
-
-
-.tpo-button {
-
-display:inline-block;
-
-margin-top:25px;
-
-padding:15px 35px;
-
-background:#f4b400;
-
-color:black;
-
-text-decoration:none;
-
-border-radius:8px;
-
-font-weight:bold;
-
-}
-
-
-
-.tpo-page section {
-
-padding:70px 20px;
-
-max-width:1100px;
-
-margin:auto;
-
-}
-
-
-
-.tpo-page h2 {
-
-color:#0d3b66;
-
-font-size:35px;
-
-}
-
-
-
-.tpo-grid {
-
-display:grid;
-
-grid-template-columns:repeat(4,1fr);
-
-gap:20px;
-
-}
-
-
-
-.tpo-grid div {
-
-background:#f4f4f4;
-
-padding:25px;
-
-border-radius:12px;
-
-}
-
-
-
-@media(max-width:900px){
-
-.tpo-grid {
-
-grid-template-columns:1fr 1fr;
-
-}
-
-}
-
-
-@media(max-width:600px){
-
-.tpo-grid {
-
-grid-template-columns:1fr;
-
-}
-
-}
-
-
-
-`}</style>
-
-
-</div>
-
-)
-
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TPO Roofing - Maximum Roofing</title>
+    <style>
+        .tpo-page { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        .tpo-hero { background:#0d3b66; color:white; padding:100px 20px; text-align:center; }
+        .tpo-hero h1 { font-size:55px; margin: 0 0 10px 0; }
+        .tpo-hero h2 { color: white; font-size: 24px; margin-bottom: 20px; }
+        .tpo-hero p { max-width:850px; margin:auto; font-size:20px; line-height: 1.6; }
+        .tpo-button { display:inline-block; margin-top:25px; padding:15px 35px; background:#f4b400; color:black; text-decoration:none; border-radius:8px; font-weight:bold; }
+        .tpo-page section { padding:70px 20px; max-width:1100px; margin:auto; }
+        .tpo-page h2 { color:#0d3b66; font-size:35px; }
+        .tpo-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:20px; }
+        .tpo-grid div { background:#f4f4f4; padding:25px; border-radius:12px; }
+        @media(max-width:900px){ .tpo-grid { grid-template-columns:1fr 1fr; } }
+        @media(max-width:600px){ .tpo-grid { grid-template-columns:1fr; } }
+    </style>
+</head>
+<body>
+
+    <div class="tpo-page">
+        <section class="tpo-hero">
+            <h1>TPO Roofing</h1>
+            <h2>Professional TPO Roofing Installation by Maximum Roofing</h2>
+            <p>Maximum Roofing provides commercial TPO roofing installation, repair, and replacement. Our roofing systems are built for durability, energy efficiency, and long-term protection.</p>
+            <a href="index.html" class="tpo-button">Go Back to Homepage</a>
+        </section>
+
+        <section>
+            <h2>What Is TPO Roofing?</h2>
+            <p>TPO (Thermoplastic Polyolefin) roofing is a single-ply membrane roofing system designed for commercial flat and low-slope roofs. It creates a strong waterproof barrier that protects buildings from leaks, UV exposure, and harsh weather conditions.</p>
+        </section>
+
+        <section>
+            <h2>Why TPO Roofing Is Better</h2>
+            <div class="tpo-grid">
+                <div>
+                    <h3>20–30 Year Lifespan</h3>
+                    <p>A properly installed TPO roof can last approximately 20 to 30 years with proper maintenance.</p>
+                </div>
+                <div>
+                    <h3>Energy Efficient</h3>
+                    <p>The reflective surface helps reduce heat absorption and improves energy efficiency.</p>
+                </div>
+                <div>
+                    <h3>Waterproof Protection</h3>
+                    <p>Heat-welded seams create a strong barrier designed to help prevent leaks.</p>
+                </div>
+                <div>
+                    <h3>Weather Resistant</h3>
+                    <p>TPO roofing is designed to handle rain, snow, wind, UV exposure, and temperature changes.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>TPO Roofing Project Near Staten Island Mall</h2>
+            <p>Maximum Roofing recently completed a TPO roofing project near the Staten Island Mall. Our team installed a durable commercial roofing system focused on long-term protection and performance.</p>
+            <p>The project included roof preparation, TPO membrane installation, heat-welded seams, flashing details, and final inspection.</p>
+        </section>
+
+        <section>
+            <h2>Why Choose Maximum Roofing?</h2>
+            <p>Maximum Roofing delivers professional roofing solutions with quality workmanship and attention to detail. Whether you need a new TPO roof, repair, or replacement, our team is ready to help.</p>
+            <a href="index.html" class="tpo-button">Return to Main Site</a>
+        </section>
+    </div>
+
+</body>
+</html>
