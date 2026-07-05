@@ -1,13 +1,54 @@
-Maximum Roofing
+# Maximum Roofing
 
-https://www.maximumroofing.us/
+> Professional roofing contractor serving Staten Island, New York.
 
-https://www.maximumroofing.us/commercial-roofing.html
-https://www.maximumroofing.us/residential-roofing.html
-https://www.maximumroofing.us/roof-repair.html
-https://www.maximumroofing.us/flat-roof-repair.html
-https://www.maximumroofing.us/tporoofing.html
-https://www.maximumroofing.us/epdm-roofing.html
-https://www.maximumroofing.us/torch-down-roofing.html
-https://www.maximumroofing.us/commercial-silicone-roofing.html
-https://www.maximumroofing.us/vinyl-siding.html
+Website: https://www.maximumroofing.us/
+
+## Services
+
+- Commercial Roofing
+  https://www.maximumroofing.us/commercial-roofing.html
+
+- Residential Roofing
+  https://www.maximumroofing.us/residential-roofing.html
+
+- Roof Repair
+  https://www.maximumroofing.us/roof-repair.html
+
+- Flat Roof Repair
+  https://www.maximumroofing.us/flat-roof-repair.html
+
+- TPO Roofing
+  https://www.maximumroofing.us/tporoofing.html
+
+- EPDM Roofing
+  https://www.maximumroofing.us/epdm-roofing.html
+
+- Torch Down Roofing
+  https://www.maximumroofing.us/torch-down-roofing.html
+
+- Commercial Silicone Roof Coatings
+  https://www.maximumroofing.us/commercial-silicone-roofing.html
+
+- Vinyl Siding
+  https://www.maximumroofing.us/vinyl-siding.html
+
+## Contact
+
+Business: Maximum Roofing
+
+Phone: (732) 395-3945
+
+Email: jamesleo@maximumroofing.us
+
+Address:
+11 John Street
+Staten Island, NY 10302
+
+## Service Area
+
+Staten Island, New York
+
+## Sitemap
+
+https://www.maximumroofing.us/sitemap.xml
