@@ -34,7 +34,7 @@
         "@id": "https://www.maximumroofing.us/#localbusiness",
         "name": "Maximum Roofing",
         "url": "https://www.maximumroofing.us/",
-        "telephone": "+1-732-395-3945",
+        "telephone": "+17323953945",
         "priceRange": "$$",
         "image": "https://www.maximumroofing.us/images/epdm-roofing-staten-island.webp",
         "address": {
@@ -46,11 +46,42 @@
           "addressCountry": "US"
         },
         "areaServed": [
-          "Staten Island NY", "St. George", "Tompkinsville", "Stapleton", "Clifton", "Rosebank", "Arrochar", "South Beach", "Midland Beach", "Dongan Hills", "Grant City", "New Dorp", "Oakwood", "Bay Terrace", "Great Kills", "Eltingville", "Annadale", "Huguenot", "Prince's Bay", "Tottenville", "Richmond Valley", "Pleasant Plains", "Charleston", "Rossville", "Woodrow", "Travis", "Bulls Head", "New Springville", "Willowbrook", "Graniteville", "Westerleigh", "Port Richmond", "Mariners Harbor", "Elm Park", "West Brighton", "Livingston", "Randall Manor", "Grymes Hill", "Emerson Hill", "Todt Hill", "Silver Lake", "Sunnyside", "Castleton Corners", "Richmondtown", "New Brighton"
+          {
+            "@type": "City",
+            "name": "Staten Island",
+            "addressRegion": "NY",
+            "addressCountry": "US"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "North Shore, Staten Island"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "South Shore, Staten Island"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "Mid-Island, Staten Island"
+          },
+          {
+            "@type": "AdministrativeArea",
+            "name": "East Shore, Staten Island"
+          }
         ],
         "openingHoursSpecification": [
-          {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "opens": "07:00", "closes": "19:00"},
-          {"@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "17:00"}
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "07:00",
+            "closes": "19:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Saturday",
+            "opens": "08:00",
+            "closes": "17:00"
+          }
         ]
       },
       {
@@ -59,21 +90,29 @@
         "url": "https://www.maximumroofing.us/epdm-roofing.html",
         "name": "EPDM Roofing Staten Island NY",
         "description": "EPDM roofing installation, EPDM roof repair, EPDM replacement, rubber flat roofing, inspections, and maintenance in Staten Island, NY.",
-        "isPartOf": {"@id": "https://www.maximumroofing.us/#website"},
-        "about": {"@id": "https://www.maximumroofing.us/#localbusiness"}
+        "isPartOf": {
+          "@id": "https://www.maximumroofing.us/#website"
+        },
+        "about": {
+          "@id": "https://www.maximumroofing.us/#localbusiness"
+        }
       },
       {
         "@type": "WebSite",
         "@id": "https://www.maximumroofing.us/#website",
         "url": "https://www.maximumroofing.us/",
         "name": "Maximum Roofing",
-        "publisher": {"@id": "https://www.maximumroofing.us/#localbusiness"}
+        "publisher": {
+          "@id": "https://www.maximumroofing.us/#localbusiness"
+        }
       },
       {
         "@type": "Service",
         "@id": "https://www.maximumroofing.us/epdm-roofing.html#service",
         "serviceType": "EPDM Roofing, Rubber Flat Roof Repair, EPDM Roof Replacement, EPDM Roof Installation",
-        "provider": {"@id": "https://www.maximumroofing.us/#localbusiness"},
+        "provider": {
+          "@id": "https://www.maximumroofing.us/#localbusiness"
+        },
         "areaServed": "Staten Island, NY",
         "description": "Commercial and residential low-slope EPDM rubber roofing services in Staten Island, including installation, repair, replacement, maintenance, inspection, and leak repair."
       },
@@ -81,44 +120,49 @@
         "@type": "BreadcrumbList",
         "@id": "https://www.maximumroofing.us/epdm-roofing.html#breadcrumb",
         "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.maximumroofing.us/"},
-          {"@type": "ListItem", "position": 2, "name": "EPDM Roofing", "item": "https://www.maximumroofing.us/epdm-roofing.html"}
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://www.maximumroofing.us/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "EPDM Roofing",
+            "item": "https://www.maximumroofing.us/epdm-roofing.html"
+          }
         ]
       },
       {
         "@type": "FAQPage",
         "@id": "https://www.maximumroofing.us/epdm-roofing.html#faq",
         "mainEntity": [
-          {"@type":"Question","name":"What is EPDM roofing?","acceptedAnswer":{"@type":"Answer","text":"EPDM roofing is a single-ply synthetic rubber membrane used on commercial and low-slope flat roofs. It is popular because it is reflective, durable, heat-welded at the seams, and designed to resist weather exposure."}},
-          {"@type":"Question","name":"Do you install EPDM roofing in Staten Island?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing installs, repairs, replaces, inspects, and maintains EPDM roofing systems throughout Staten Island, NY."}},
-          {"@type":"Question","name":"Is EPDM good for commercial flat roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes. EPDM is commonly used on commercial flat and low-slope roofs because it is lightweight, reflective, flexible, and well-suited for roofs with HVAC units, drains, vents, and other penetrations."}},
-          {"@type":"Question","name":"How long does a EPDM roof last?","acceptedAnswer":{"@type":"Answer","text":"A properly installed and maintained EPDM roof can last many years. Lifespan depends on membrane thickness, installation quality, drainage, maintenance, foot traffic, weather exposure, and roof details."}},
-          {"@type":"Question","name":"Can EPDM roofing be repaired?","acceptedAnswer":{"@type":"Answer","text":"Yes. Many EPDM roof leaks, punctures, seam issues, flashing problems, and membrane damage can be repaired when caught early."}},
-          {"@type":"Question","name":"What causes EPDM roof leaks?","acceptedAnswer":{"@type":"Answer","text":"Common causes include damaged seams, punctures, poor drainage, failed flashing, rooftop equipment penetrations, storm damage, loose edge metal, and aging materials."}},
-          {"@type":"Question","name":"Is EPDM better than EPDM?","acceptedAnswer":{"@type":"Answer","text":"EPDM and EPDM are both strong flat roofing options. EPDM is typically white and reflective with adhesive/seam-tape systems, while EPDM is a rubber membrane often selected for flexibility and long-term performance. The best choice depends on the building, budget, drainage, and roof conditions."}},
-          {"@type":"Question","name":"Is EPDM better than torch down roofing?","acceptedAnswer":{"@type":"Answer","text":"EPDM is a single-ply membrane with adhesive/seam-tape systems and reflective energy benefits. Torch down roofing is a modified bitumen system that can be durable for certain flat roofs. The right system depends on the property, slope, roof access, existing layers, and project goals."}},
-          {"@type":"Question","name":"Do you repair commercial EPDM roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing provides commercial EPDM roof repair for leaks, punctures, seam problems, flashing failures, drainage issues, and storm damage."}},
-          {"@type":"Question","name":"Do you replace old flat roofs with EPDM?","acceptedAnswer":{"@type":"Answer","text":"Yes. We can evaluate an aging flat roof and recommend whether EPDM replacement, repair, restoration, or another system is the best option."}},
-          {"@type":"Question","name":"Can EPDM be installed over an existing roof?","acceptedAnswer":{"@type":"Answer","text":"In some cases, EPDM may be installed over an existing roof assembly if the structure, existing layers, moisture condition, local code, and manufacturer requirements allow it. An inspection is needed before deciding."}},
-          {"@type":"Question","name":"Does EPDM help with energy efficiency?","acceptedAnswer":{"@type":"Answer","text":"White EPDM roofing is reflective and can help reduce heat absorption on low-slope roofs. Actual energy impact depends on insulation, roof design, building use, ventilation, and overall envelope performance."}},
-          {"@type":"Question","name":"How do I know if my EPDM roof needs repair or replacement?","acceptedAnswer":{"@type":"Answer","text":"Warning signs include active leaks, ponding water, open seams, loose flashing, punctures, bubbling, shrinking, repeated repairs, interior staining, and widespread membrane deterioration."}},
-          {"@type":"Question","name":"Do you provide emergency EPDM leak repair?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide emergency roofing help for leaks and storm damage across Staten Island. Call for urgent roof leak support."}},
-          {"@type":"Question","name":"What buildings are best for EPDM roofing?","acceptedAnswer":{"@type":"Answer","text":"EPDM is commonly used on warehouses, retail buildings, restaurants, office buildings, apartment buildings, medical buildings, schools, churches, and other low-slope commercial properties."}},
-          {"@type":"Question","name":"How often should a EPDM roof be inspected?","acceptedAnswer":{"@type":"Answer","text":"A commercial EPDM roof should generally be inspected at least once or twice a year and after major storms, high winds, heavy snow, or rooftop construction work."}},
-          {"@type":"Question","name":"Can foot traffic damage EPDM roofing?","acceptedAnswer":{"@type":"Answer","text":"Heavy or careless foot traffic can damage many flat roofing systems, including EPDM. Walk pads and proper roof access procedures help protect areas around HVAC units and service paths."}},
-          {"@type":"Question","name":"What thickness of EPDM should I choose?","acceptedAnswer":{"@type":"Answer","text":"Common EPDM thicknesses include 45 mil, 60 mil, and thicker options. The best choice depends on roof use, building type, budget, traffic, warranty goals, and manufacturer specifications."}},
-          {"@type":"Question","name":"Do EPDM roofs need coating?","acceptedAnswer":{"@type":"Answer","text":"A newer EPDM roof usually does not need coating. Older roofs may be evaluated for repair, restoration, or coating compatibility depending on condition and manufacturer guidance."}},
-          {"@type":"Question","name":"Can ponding water damage a EPDM roof?","acceptedAnswer":{"@type":"Answer","text":"Standing water can create long-term problems on many flat roofs. Proper drainage, clean scuppers, working drains, and correct slope are important for EPDM roof performance."}},
-          {"@type":"Question","name":"Do you install EPDM on restaurants?","acceptedAnswer":{"@type":"Answer","text":"Yes. We work on restaurant flat roofs and can inspect areas around exhaust fans, grease exposure, HVAC units, roof penetrations, flashing, and drainage."}},
-          {"@type":"Question","name":"Do you install EPDM on apartment buildings?","acceptedAnswer":{"@type":"Answer","text":"Yes. We provide EPDM roofing services for apartment buildings, multi-family properties, condos, and mixed-use buildings in Staten Island."}},
-          {"@type":"Question","name":"Do you install EPDM on warehouses?","acceptedAnswer":{"@type":"Answer","text":"Yes. EPDM is commonly used on warehouse and industrial roofs because it can cover large low-slope surfaces efficiently."}},
-          {"@type":"Question","name":"Do you serve all Staten Island neighborhoods?","acceptedAnswer":{"@type":"Answer","text":"Yes. We serve EPDM roofing customers throughout Staten Island, including St. George, Tottenville, Great Kills, New Dorp, Port Richmond, Westerleigh, Annadale, Eltingville, Huguenot, and surrounding neighborhoods."}},
-          {"@type":"Question","name":"Do you offer free EPDM roofing estimates?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing offers free roofing estimates. Call or submit the contact form to schedule an inspection."}},
-          {"@type":"Question","name":"Can EPDM seams be resealed?","acceptedAnswer":{"@type":"Answer","text":"EPDM seams are typically heat-welded. If seams are open or damaged, a qualified roofing contractor can evaluate whether repair, patching, or replacement is needed."}},
-          {"@type":"Question","name":"What is single-ply roofing?","acceptedAnswer":{"@type":"Answer","text":"Single-ply roofing is a flat roof system using one layer of membrane material. EPDM, EPDM, and PVC are common single-ply roofing systems."}},
-          {"@type":"Question","name":"Is EPDM roofing waterproof?","acceptedAnswer":{"@type":"Answer","text":"A properly installed EPDM roofing system is designed to create a watertight membrane. Waterproof performance depends heavily on installation, seams, flashing, drainage, and maintenance."}},
-          {"@type":"Question","name":"How fast can a EPDM roof be installed?","acceptedAnswer":{"@type":"Answer","text":"Installation time depends on roof size, tear-off needs, insulation, weather, roof access, penetrations, and project complexity. A site inspection is needed for an accurate timeline."}},
-          {"@type":"Question","name":"Why choose Maximum Roofing for EPDM roofing?","acceptedAnswer":{"@type":"Answer","text":"Maximum Roofing is a local Staten Island roofing contractor providing EPDM installation, repair, replacement, inspection, maintenance, and emergency leak support with clear communication and free estimates."}}
+          {
+            "@type":"Question",
+            "name":"What is EPDM roofing?",
+            "acceptedAnswer":{"@type":"Answer","text":"EPDM roofing is a single-ply synthetic rubber membrane used on commercial and low-slope flat roofs. It is commonly chosen for flexibility, durability, and long-term flat roof performance."}
+          },
+          {
+            "@type":"Question",
+            "name":"Do you install EPDM roofing in Staten Island?",
+            "acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing installs, repairs, replaces, inspects, and maintains EPDM roofing systems throughout Staten Island, NY."}
+          },
+          {
+            "@type":"Question",
+            "name":"Can EPDM roofing be repaired?",
+            "acceptedAnswer":{"@type":"Answer","text":"Yes. Many EPDM roof leaks, punctures, seam issues, flashing problems, and membrane damage can be repaired when caught early."}
+          },
+          {
+            "@type":"Question",
+            "name":"Is EPDM better than TPO?",
+            "acceptedAnswer":{"@type":"Answer","text":"EPDM and TPO are both common single-ply flat roofing systems. EPDM is a rubber membrane known for flexibility, while TPO is usually white and reflective with heat-welded seams. The best option depends on the roof."}
+          },
+          {
+            "@type":"Question",
+            "name":"Do you offer free EPDM roofing estimates?",
+            "acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing offers free EPDM roofing estimates. Call or submit the contact form to schedule an inspection."}
+          }
         ]
       }
     ]
@@ -143,11 +187,12 @@
     .btn-primary,.btn-outline{display:inline-block;border-radius:10px;text-decoration:none;font-weight:800;transition:.2s ease;text-align:center}
     .btn-primary{background:var(--accent);color:#fff;padding:14px 26px;border:2px solid var(--accent);box-shadow:0 8px 20px rgba(226,92,28,.25)}.btn-primary:hover{background:var(--accent-dark);border-color:var(--accent-dark);transform:translateY(-2px)}
     .btn-outline{background:#fff;color:var(--accent);padding:12px 24px;border:2px solid var(--accent)}.btn-outline:hover{background:var(--accent);color:#fff}
-    .hero{background:linear-gradient(135deg,#f7f9fc 0%,#edf2f7 100%);padding:72px 0}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}.eyebrow{display:inline-block;color:var(--accent);font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:.82rem;margin-bottom:12px}.hero h1{font-size:clamp(2.35rem,5vw,4.7rem);line-height:1.06;letter-spacing:-.05em;margin-bottom:22px}.hero h1 span{color:var(--accent)}.hero p{font-size:1.18rem;color:var(--gray);margin-bottom:26px}.hero-buttons{display:flex;gap:14px;flex-wrap:wrap;margin:28px 0}.trust-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:26px;color:#2d3748;font-weight:700}.trust-list div{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 14px}.hero-card{background:#fff;border-radius:24px;padding:30px;box-shadow:var(--shadow);border:1px solid var(--border)}.hero-card h2{font-size:1.4rem;margin-bottom:16px}.hero-card ul{padding-left:20px;color:var(--gray)}.hero-card li{margin-bottom:10px}.quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}.stat{background:var(--light);border-radius:14px;padding:16px;text-align:center}.stat strong{display:block;color:var(--accent);font-size:1.5rem}.section{padding:78px 0}.section.alt{background:var(--light)}.section-title{font-size:clamp(2rem,4vw,3rem);line-height:1.12;text-align:center;letter-spacing:-.035em;margin-bottom:14px}.section-subtitle{text-align:center;color:var(--gray);font-size:1.1rem;max-width:820px;margin:0 auto 42px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}.card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:26px;box-shadow:0 10px 24px rgba(0,0,0,.04)}.card h3{font-size:1.25rem;margin-bottom:10px}.card p,.card li{color:var(--gray)}.card ul{padding-left:20px}.pill-list{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}.pill{background:#fff;border:1px solid var(--border);border-radius:999px;padding:10px 14px;color:#2d3748;font-weight:700}.content-block{max-width:960px;margin:0 auto}.content-block h2{font-size:2.15rem;margin:30px 0 12px}.content-block h3{font-size:1.45rem;margin:24px 0 10px}.content-block p{color:var(--gray);margin-bottom:16px}.content-block ul{color:var(--gray);margin:0 0 18px 24px}.comparison{width:100%;border-collapse:collapse;background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}.comparison th,.comparison td{padding:18px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}.comparison th{background:var(--primary);color:#fff}.comparison td{color:var(--gray)}.cta-band{background:linear-gradient(135deg,var(--primary),#16213e);color:#fff;border-radius:26px;padding:42px;margin:30px 0;text-align:center}.cta-band h2{font-size:2rem;margin-bottom:12px}.cta-band p{opacity:.9;margin-bottom:22px}.neighborhoods{columns:4;column-gap:26px}.neighborhoods a,.neighborhoods span{display:block;break-inside:avoid;color:#2d3748;background:#fff;border:1px solid var(--border);border-radius:10px;padding:9px 12px;margin-bottom:9px;text-decoration:none;font-weight:700}.faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.faq-item{background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px}.faq-item h3{font-size:1.08rem;margin-bottom:9px}.faq-item p{color:var(--gray)}.form-section{background:var(--light);padding:78px 0}.form-card{max-width:780px;margin:0 auto;background:#fff;border-radius:24px;padding:40px;box-shadow:var(--shadow)}.form-group{margin-bottom:16px}.form-group input,.form-group select,.form-group textarea{width:100%;padding:14px 16px;border:2px solid var(--border);border-radius:12px;font-size:1rem}.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--accent)}footer{background:var(--primary);color:#a0aec0;padding:48px 0}.footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}.footer-grid h3,.footer-grid h4{color:#fff;margin-bottom:14px}.footer-grid a{display:block;color:#a0aec0;text-decoration:none;margin-bottom:8px}.footer-grid a:hover{color:var(--accent)}.footer-bottom{text-align:center;border-top:1px solid rgba(255,255,255,.12);margin-top:28px;padding-top:24px}.success{display:none;text-align:center;padding:30px}.small{font-size:.92rem;color:var(--gray)}
-    @media(max-width:900px){.hero-grid,.grid-3,.grid-2,.faq-grid,.footer-grid{grid-template-columns:1fr}.neighborhoods{columns:2}.quick-stats{grid-template-columns:1fr}.trust-list{grid-template-columns:1fr}.navbar{align-items:flex-start;flex-direction:column}.nav-links{gap:14px}.comparison{font-size:.9rem}}
-    @media(max-width:560px){.container{width:min(100% - 28px,1200px)}.section{padding:56px 0}.hero{padding:52px 0}.neighborhoods{columns:1}.form-card{padding:26px}.topbar .container{display:block}.topbar span{display:block;margin:4px 0}}
+    .hero{background:linear-gradient(135deg,#f7f9fc 0%,#edf2f7 100%);padding:72px 0}.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:center}.eyebrow{display:inline-block;color:var(--accent);font-weight:900;text-transform:uppercase;letter-spacing:.08em;font-size:.82rem;margin-bottom:12px}.hero h1{font-size:clamp(2.35rem,5vw,4.7rem);line-height:1.06;letter-spacing:-.05em;margin-bottom:22px}.hero h1 span{color:var(--accent)}.hero p{font-size:1.18rem;color:var(--gray);margin-bottom:26px}.hero-buttons{display:flex;gap:14px;flex-wrap:wrap;margin:28px 0}.trust-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:26px;color:#2d3748;font-weight:700}.trust-list div{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 14px}.hero-card{background:#fff;border-radius:24px;padding:30px;box-shadow:var(--shadow);border:1px solid var(--border)}.hero-card h2{font-size:1.4rem;margin-bottom:16px}.hero-card ul{padding-left:20px;color:var(--gray)}.hero-card li{margin-bottom:10px}.quick-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:22px}.stat{background:var(--light);border-radius:14px;padding:16px;text-align:center}.stat strong{display:block;color:var(--accent);font-size:1.5rem}.section{padding:78px 0}.section.alt{background:var(--light)}.section-title{font-size:clamp(2rem,4vw,3rem);line-height:1.12;text-align:center;letter-spacing:-.035em;margin-bottom:14px}.section-subtitle{text-align:center;color:var(--gray);font-size:1.1rem;max-width:820px;margin:0 auto 42px}.grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}.grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:28px}.card{background:#fff;border:1px solid var(--border);border-radius:18px;padding:26px;box-shadow:0 10px 24px rgba(0,0,0,.04)}.card h3{font-size:1.25rem;margin-bottom:10px}.card p,.card li{color:var(--gray)}.card ul{padding-left:20px}.content-block{max-width:960px;margin:0 auto}.content-block h2{font-size:2.15rem;margin:30px 0 12px}.content-block h3{font-size:1.45rem;margin:24px 0 10px}.content-block p{color:var(--gray);margin-bottom:16px}.content-block ul{color:var(--gray);margin:0 0 18px 24px}.comparison{width:100%;border-collapse:collapse;background:#fff;border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}.comparison th,.comparison td{padding:18px;border-bottom:1px solid var(--border);text-align:left;vertical-align:top}.comparison th{background:var(--primary);color:#fff}.comparison td{color:var(--gray)}.cta-band{background:linear-gradient(135deg,var(--primary),#16213e);color:#fff;border-radius:26px;padding:42px;margin:30px 0;text-align:center}.cta-band h2{font-size:2rem;margin-bottom:12px}.cta-band p{opacity:.9;margin-bottom:22px}.faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.faq-item{background:#fff;border:1px solid var(--border);border-radius:16px;padding:22px}.faq-item h3{font-size:1.08rem;margin-bottom:9px}.faq-item p{color:var(--gray)}.form-section{background:var(--light);padding:78px 0}.form-card{max-width:780px;margin:0 auto;background:#fff;border-radius:24px;padding:40px;box-shadow:var(--shadow)}.form-group{margin-bottom:16px}.form-group input,.form-group select,.form-group textarea{width:100%;padding:14px 16px;border:2px solid var(--border);border-radius:12px;font-size:1rem}.form-group input:focus,.form-group select:focus,.form-group textarea:focus{outline:none;border-color:var(--accent)}footer{background:var(--primary);color:#a0aec0;padding:48px 0}.footer-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px}.footer-grid h3,.footer-grid h4{color:#fff;margin-bottom:14px}.footer-grid a{display:block;color:#a0aec0;text-decoration:none;margin-bottom:8px}.footer-grid a:hover{color:var(--accent)}.footer-bottom{text-align:center;border-top:1px solid rgba(255,255,255,.12);margin-top:28px;padding-top:24px}.success{display:none;text-align:center;padding:30px}.small{font-size:.92rem;color:var(--gray)}
+    @media(max-width:900px){.hero-grid,.grid-3,.grid-2,.faq-grid,.footer-grid{grid-template-columns:1fr}.quick-stats{grid-template-columns:1fr}.trust-list{grid-template-columns:1fr}.navbar{align-items:flex-start;flex-direction:column}.nav-links{gap:14px}.comparison{font-size:.9rem}}
+    @media(max-width:560px){.container{width:min(100% - 28px,1200px)}.section{padding:56px 0}.hero{padding:52px 0}.form-card{padding:26px}.topbar .container{display:block}.topbar span{display:block;margin:4px 0}}
   </style>
 </head>
+
 <body>
   <div class="topbar">
     <div class="container">
@@ -162,9 +207,10 @@
       <div class="nav-links">
         <a href="index.html">Home</a>
         <a href="commercial-roofing.html">Commercial Roofing</a>
-        <a href="epdm-roofing.html">EPDM Roofing</a>
+        <a href="tporoofing.html">TPO Roofing</a>
         <a href="epdm-roofing.html">EPDM Roofing</a>
         <a href="torch-down-roofing.html">Torch Down</a>
+        <a href="flat-roof-repair.html">Flat Roof Repair</a>
         <a href="roof-repair.html">Roof Repair</a>
         <a href="#contact" class="btn-outline" style="padding:8px 16px">Free Estimate</a>
       </div>
@@ -178,17 +224,20 @@
           <span class="eyebrow">EPDM Roofing Staten Island NY</span>
           <h1>Commercial EPDM Roofing, Flat Roof Repair & <span>Roof Replacement</span></h1>
           <p>Maximum Roofing installs, repairs, replaces, and maintains EPDM roofing systems for commercial buildings, apartment properties, warehouses, restaurants, offices, retail spaces, and low-slope roofs across Staten Island.</p>
+
           <div class="hero-buttons">
             <a class="btn-primary" href="tel:+17323953945">Call (732) 395-3945</a>
             <a class="btn-outline" href="#contact">Request Free Estimate</a>
           </div>
+
           <div class="trust-list">
             <div>✓ EPDM roof repair and leak detection</div>
             <div>✓ Commercial flat roof replacement</div>
-            <div>✓ EPDM, torch down, and roof coating options</div>
-            <div>✓ Serving every Staten Island neighborhood</div>
+            <div>✓ TPO, torch down, and roof coating options</div>
+            <div>✓ Staten Island flat roof service</div>
           </div>
         </div>
+
         <aside class="hero-card" aria-label="EPDM roofing services summary">
           <h2>EPDM Roofing Services</h2>
           <ul>
@@ -199,6 +248,7 @@
             <li>Preventive maintenance and roof inspections</li>
             <li>Drainage, flashing, edge metal, and penetration repairs</li>
           </ul>
+
           <div class="quick-stats">
             <div class="stat"><strong>1,500+</strong><span>Jobs Done</span></div>
             <div class="stat"><strong>Local</strong><span>Staten Island</span></div>
@@ -211,11 +261,23 @@
     <section class="section">
       <div class="container">
         <h2 class="section-title">Staten Island EPDM Roofing Contractor for Commercial & Low-Slope Roofs</h2>
-        <p class="section-subtitle">EPDM roofing is one of the most searched flat roof systems because it combines reflective white membrane performance, adhesive/seam-tape systems, and practical commercial roof protection.</p>
+        <p class="section-subtitle">EPDM roofing is a rubber flat roof system commonly used on commercial and low-slope roofs because it is flexible, durable, and practical for many building types.</p>
+
         <div class="grid-3">
-          <div class="card"><h3>EPDM Roof Installation</h3><p>Professional EPDM membrane installation for flat and low-slope roofs, including insulation, cover board, flashing, seams, edge details, roof drains, scuppers, and penetrations.</p></div>
-          <div class="card"><h3>EPDM Roof Repair</h3><p>Repair for punctures, seam openings, roof leaks, ponding-water damage, flashing failures, storm damage, loose edge metal, and rooftop equipment areas.</p></div>
-          <div class="card"><h3>EPDM Roof Replacement</h3><p>Complete replacement for aging commercial flat roofs when repairs are no longer cost-effective or the existing system has widespread failure.</p></div>
+          <div class="card">
+            <h3>EPDM Roof Installation</h3>
+            <p>Professional EPDM membrane installation for flat and low-slope roofs, including insulation, cover board, flashing, seams, edge details, roof drains, scuppers, and penetrations.</p>
+          </div>
+
+          <div class="card">
+            <h3>EPDM Roof Repair</h3>
+            <p>Repair for punctures, seam openings, roof leaks, ponding-water damage, flashing failures, storm damage, loose edge metal, and rooftop equipment areas.</p>
+          </div>
+
+          <div class="card">
+            <h3>EPDM Roof Replacement</h3>
+            <p>Complete replacement for aging commercial flat roofs when repairs are no longer cost-effective or the existing system has widespread failure.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -223,26 +285,17 @@
     <section class="section alt">
       <div class="container content-block">
         <h2>What Is EPDM Roofing?</h2>
-        <p>EPDM stands for synthetic rubber polyolefin. It is a single-ply roofing membrane used on commercial and low-slope flat roofs. EPDM is commonly chosen for Staten Island properties because it is lightweight, reflective, flexible, and designed for large roof areas where strong seams and proper drainage matter.</p>
-        <p>A EPDM roof system usually includes the roof deck, insulation, cover board when needed, the EPDM membrane, fasteners or adhesive, adhesive/seam-tape systems, flashing details, edge metal, drains, scuppers, and accessories around penetrations such as HVAC units, vents, skylights, exhaust fans, and pipes.</p>
+        <p>EPDM stands for ethylene propylene diene monomer. It is a synthetic rubber roofing membrane used on commercial and low-slope flat roofs. EPDM is commonly chosen because it is flexible, durable, and suitable for many flat roof applications.</p>
+        <p>An EPDM roof system usually includes the roof deck, insulation, cover board when needed, the EPDM membrane, adhesive or mechanical attachment, seam tape, flashing details, edge metal, drains, scuppers, and accessories around penetrations such as HVAC units, vents, skylights, exhaust fans, and pipes.</p>
+
         <h3>Why Property Owners Choose EPDM</h3>
         <ul>
-          <li>White reflective membrane that can help reduce heat absorption.</li>
-          <li>Heat-welded seams that create strong watertight connections when installed correctly.</li>
-          <li>Good fit for many commercial flat roofs and low-slope properties.</li>
+          <li>Flexible synthetic rubber membrane for flat and low-slope roofs.</li>
+          <li>Good fit for many commercial roofs and low-slope properties.</li>
           <li>Works well on warehouses, office buildings, retail buildings, restaurants, apartment buildings, and mixed-use properties.</li>
           <li>Can be repaired when damage is localized and the roof is still in serviceable condition.</li>
+          <li>Can be compared with TPO, torch down, PVC, and roof coating options during inspection.</li>
         </ul>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="container">
-        <h2 class="section-title">EPDM Roofing Keywords This Page Targets Naturally</h2>
-        <p class="section-subtitle">This page is built for search engines and AI answer engines by clearly covering the terms customers use when looking for EPDM roofing help.</p>
-        <div class="pill-list" aria-label="EPDM roofing keyword list">
-          <span class="pill">EPDM roofing Staten Island</span><span class="pill">EPDM roof repair Staten Island</span><span class="pill">EPDM roof replacement</span><span class="pill">commercial EPDM roofing</span><span class="pill">flat roof contractor</span><span class="pill">flat roof leak repair</span><span class="pill">black rubber membrane roofing</span><span class="pill">single-ply roofing</span><span class="pill">EPDM membrane repair</span><span class="pill">commercial flat roofing</span><span class="pill">warehouse roof replacement</span><span class="pill">restaurant flat roof repair</span><span class="pill">apartment building roofing</span><span class="pill">office building roof repair</span><span class="pill">retail roof replacement</span><span class="pill">roof inspection Staten Island</span><span class="pill">roof maintenance Staten Island</span><span class="pill">EPDM vs TPO</span><span class="pill">EPDM vs torch down</span><span class="pill">PVC vs EPDM</span><span class="pill">energy efficient roofing</span><span class="pill">commercial roof leak repair</span><span class="pill">licensed roofing contractor</span><span class="pill">roofing contractor near me</span>
-        </div>
       </div>
     </section>
 
@@ -250,13 +303,37 @@
       <div class="container">
         <h2 class="section-title">EPDM Roofing for Every Type of Staten Island Property</h2>
         <p class="section-subtitle">Different buildings need different flat roof details. Maximum Roofing evaluates your roof structure, existing materials, drainage, insulation, penetrations, and access before recommending a system.</p>
+
         <div class="grid-3">
-          <div class="card"><h3>Warehouses & Industrial Buildings</h3><p>Large flat roofs need durable seams, proper drainage, strong edge details, and a roof plan that minimizes business interruption.</p></div>
-          <div class="card"><h3>Restaurants & Retail Buildings</h3><p>Restaurant roofs often include exhaust fans, grease exposure, HVAC units, and frequent service traffic. EPDM details must protect these vulnerable areas.</p></div>
-          <div class="card"><h3>Apartments & Mixed-Use Buildings</h3><p>Multi-family buildings need dependable leak protection, safe roof access, clean drainage, and long-term maintenance planning.</p></div>
-          <div class="card"><h3>Office & Medical Buildings</h3><p>For professional properties, roof work should be organized, clean, and planned around building operations whenever possible.</p></div>
-          <div class="card"><h3>Schools, Churches & Community Buildings</h3><p>Institutional roofs often require careful inspection, budgeting, and maintenance plans to extend roof life and control leaks.</p></div>
-          <div class="card"><h3>Residential Low-Slope Roofs</h3><p>Some homes, additions, porches, garages, and low-slope roof sections may benefit from EPDM depending on structure and drainage.</p></div>
+          <div class="card">
+            <h3>Warehouses & Industrial Buildings</h3>
+            <p>Large flat roofs need durable seams, proper drainage, strong edge details, and a roof plan that minimizes business interruption.</p>
+          </div>
+
+          <div class="card">
+            <h3>Restaurants & Retail Buildings</h3>
+            <p>Restaurant roofs often include exhaust fans, grease exposure, HVAC units, and frequent service traffic. EPDM details must protect these vulnerable areas.</p>
+          </div>
+
+          <div class="card">
+            <h3>Apartments & Mixed-Use Buildings</h3>
+            <p>Multi-family buildings need dependable leak protection, safe roof access, clean drainage, and long-term maintenance planning.</p>
+          </div>
+
+          <div class="card">
+            <h3>Office & Medical Buildings</h3>
+            <p>For professional properties, roof work should be organized, clean, and planned around building operations whenever possible.</p>
+          </div>
+
+          <div class="card">
+            <h3>Schools, Churches & Community Buildings</h3>
+            <p>Institutional roofs often require careful inspection, budgeting, and maintenance plans to extend roof life and control leaks.</p>
+          </div>
+
+          <div class="card">
+            <h3>Residential Low-Slope Roofs</h3>
+            <p>Some homes, additions, porches, garages, and low-slope roof sections may benefit from EPDM depending on structure and drainage.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -265,15 +342,44 @@
       <div class="container">
         <h2 class="section-title">EPDM vs TPO vs Torch Down vs PVC</h2>
         <p class="section-subtitle">The best flat roof system depends on the building, budget, drainage, roof traffic, existing layers, and long-term goals.</p>
+
         <table class="comparison">
-          <thead><tr><th>Roof System</th><th>Best For</th><th>Key Benefits</th><th>Considerations</th></tr></thead>
+          <thead>
+            <tr>
+              <th>Roof System</th>
+              <th>Best For</th>
+              <th>Key Benefits</th>
+              <th>Considerations</th>
+            </tr>
+          </thead>
           <tbody>
-            <tr><td><strong>EPDM Roofing</strong></td><td>Commercial flat roofs, white reflective roofs, large low-slope areas</td><td>Reflective, adhesive/seam-tape systems, lightweight, common commercial choice</td><td>Requires skilled installation and careful seam/flashing details</td></tr>
-            <tr><td><strong>EPDM Roofing</strong></td><td>Low-slope roofs needing flexible rubber membrane performance</td><td>Flexible, proven flat roof material, good option for many roof shapes</td><td>Typically darker unless coated; seam method differs from EPDM</td></tr>
-            <tr><td><strong>Torch Down Roofing</strong></td><td>Modified bitumen flat roofs and certain smaller low-slope applications</td><td>Durable multi-layer system, strong for specific roof conditions</td><td>Installation method and building conditions must be evaluated carefully</td></tr>
-            <tr><td><strong>PVC Roofing</strong></td><td>Specialty commercial roofs, restaurants, and chemical/grease-exposure areas</td><td>Strong chemical resistance in many applications, adhesive/seam-tape systems</td><td>Often higher cost; best choice depends on use and exposure</td></tr>
+            <tr>
+              <td><strong>EPDM Roofing</strong></td>
+              <td>Low-slope roofs needing flexible rubber membrane performance</td>
+              <td>Flexible, proven flat roof material, good option for many roof shapes</td>
+              <td>Typically darker unless coated; seam method differs from TPO</td>
+            </tr>
+            <tr>
+              <td><strong>TPO Roofing</strong></td>
+              <td>Commercial flat roofs, white reflective roofs, large low-slope areas</td>
+              <td>Reflective, heat-welded seams, lightweight, common commercial choice</td>
+              <td>Requires skilled installation and careful seam and flashing details</td>
+            </tr>
+            <tr>
+              <td><strong>Torch Down Roofing</strong></td>
+              <td>Modified bitumen flat roofs and certain smaller low-slope applications</td>
+              <td>Durable multi-layer system, strong for specific roof conditions</td>
+              <td>Installation method and building conditions must be evaluated carefully</td>
+            </tr>
+            <tr>
+              <td><strong>PVC Roofing</strong></td>
+              <td>Specialty commercial roofs, restaurants, and chemical or grease-exposure areas</td>
+              <td>Strong chemical resistance in many applications, heat-welded seams</td>
+              <td>Often higher cost; best choice depends on use and exposure</td>
+            </tr>
           </tbody>
         </table>
+
         <div class="cta-band">
           <h2>Not Sure Which Flat Roof System You Need?</h2>
           <p>We inspect the roof, explain your options, and recommend the most practical solution for your building.</p>
@@ -285,14 +391,19 @@
     <section class="section alt">
       <div class="container content-block">
         <h2>Our EPDM Roofing Process</h2>
+
         <h3>1. Roof Inspection</h3>
         <p>We inspect the roof surface, seams, flashing, drainage, roof edges, penetrations, insulation concerns, interior leak signs, and existing roof materials.</p>
+
         <h3>2. Clear Recommendation</h3>
-        <p>We explain whether your EPDM roof needs repair, replacement, maintenance, restoration, or another flat roofing system such as EPDM, torch down, PVC, or silicone coating.</p>
+        <p>We explain whether your EPDM roof needs repair, replacement, maintenance, restoration, or another flat roofing system such as TPO, torch down, PVC, or silicone coating.</p>
+
         <h3>3. Estimate and Scope</h3>
         <p>Your estimate outlines the work to be performed, materials, access needs, roof preparation, repair areas, replacement scope, and project expectations.</p>
+
         <h3>4. Installation or Repair</h3>
         <p>Our crew completes the roof work with attention to seams, flashing, edges, penetrations, drainage, and detail areas where flat roof leaks commonly start.</p>
+
         <h3>5. Cleanup and Final Walkthrough</h3>
         <p>We review the work, clean the site, and answer maintenance questions so you understand how to protect your roof going forward.</p>
       </div>
@@ -302,23 +413,76 @@
       <div class="container">
         <h2 class="section-title">Common EPDM Roof Problems We Repair</h2>
         <p class="section-subtitle">Flat roof leaks often begin at the details. A professional inspection can identify problems before they cause expensive interior damage.</p>
+
         <div class="grid-3">
-          <div class="card"><h3>Open Seams</h3><p>Seams are critical on a EPDM roof. If a seam opens or was not welded correctly, water can enter the roof assembly.</p></div>
-          <div class="card"><h3>Punctures and Tears</h3><p>Tools, debris, storms, rooftop equipment service, and foot traffic can puncture or tear a membrane.</p></div>
-          <div class="card"><h3>Flashing Failures</h3><p>Leaks often appear around walls, curbs, skylights, vents, pipes, HVAC units, and other penetrations.</p></div>
-          <div class="card"><h3>Ponding Water</h3><p>Standing water can stress the roof system and reveal drainage problems with drains, scuppers, gutters, or slope.</p></div>
-          <div class="card"><h3>Loose Edge Metal</h3><p>Wind can lift vulnerable edges when metal, termination bars, or perimeter details are damaged or loose.</p></div>
-          <div class="card"><h3>Storm Damage</h3><p>High winds, heavy rain, flying debris, snow, and freeze-thaw cycles can expose weak areas on commercial roofs.</p></div>
+          <div class="card">
+            <h3>Open Seams</h3>
+            <p>Seams are critical on an EPDM roof. If a seam opens or was not sealed correctly, water can enter the roof assembly.</p>
+          </div>
+
+          <div class="card">
+            <h3>Punctures and Tears</h3>
+            <p>Tools, debris, storms, rooftop equipment service, and foot traffic can puncture or tear a membrane.</p>
+          </div>
+
+          <div class="card">
+            <h3>Flashing Failures</h3>
+            <p>Leaks often appear around walls, curbs, skylights, vents, pipes, HVAC units, and other penetrations.</p>
+          </div>
+
+          <div class="card">
+            <h3>Ponding Water</h3>
+            <p>Standing water can stress the roof system and reveal drainage problems with drains, scuppers, gutters, or slope.</p>
+          </div>
+
+          <div class="card">
+            <h3>Loose Edge Metal</h3>
+            <p>Wind can lift vulnerable edges when metal, termination bars, or perimeter details are damaged or loose.</p>
+          </div>
+
+          <div class="card">
+            <h3>Storm Damage</h3>
+            <p>High winds, heavy rain, flying debris, snow, and freeze-thaw cycles can expose weak areas on commercial roofs.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="section alt">
       <div class="container">
-        <h2 class="section-title">EPDM Roofing Across Every Staten Island Neighborhood</h2>
-        <p class="section-subtitle">Maximum Roofing serves commercial and flat roof customers throughout Staten Island. This page targets neighborhood searches naturally without spammy city pages.</p>
-        <div class="neighborhoods" aria-label="Staten Island service areas">
-          <span>St. George</span><span>Tompkinsville</span><span>Stapleton</span><span>Clifton</span><span>Rosebank</span><span>Arrochar</span><span>South Beach</span><span>Midland Beach</span><span>Dongan Hills</span><span>Grant City</span><span>New Dorp</span><span>Oakwood</span><span>Bay Terrace</span><span>Great Kills</span><span>Eltingville</span><span>Annadale</span><span>Huguenot</span><span>Prince's Bay</span><span>Tottenville</span><span>Richmond Valley</span><span>Pleasant Plains</span><span>Charleston</span><span>Rossville</span><span>Woodrow</span><span>Travis</span><span>Bulls Head</span><span>New Springville</span><span>Willowbrook</span><span>Graniteville</span><span>Westerleigh</span><span>Port Richmond</span><span>Mariners Harbor</span><span>Elm Park</span><span>West Brighton</span><span>Livingston</span><span>Randall Manor</span><span>Grymes Hill</span><span>Emerson Hill</span><span>Todt Hill</span><span>Silver Lake</span><span>Sunnyside</span><span>Castleton Corners</span><span>Richmondtown</span><span>New Brighton</span>
+        <h2 class="section-title">EPDM Roofing Service Across Staten Island</h2>
+        <p class="section-subtitle">
+          Maximum Roofing provides EPDM roof installation, rubber flat roof repair,
+          roof replacement, inspections, and maintenance throughout Staten Island.
+        </p>
+
+        <div class="grid-3">
+          <div class="card">
+            <h3>North Shore</h3>
+            <p>
+              We serve North Shore areas such as St. George, Tompkinsville, Stapleton,
+              Clifton, Rosebank, Port Richmond, Mariners Harbor, West Brighton, New Brighton,
+              and nearby Staten Island communities.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Mid-Island & East Shore</h3>
+            <p>
+              We also serve Dongan Hills, Grant City, New Dorp, Oakwood, Bay Terrace,
+              South Beach, Midland Beach, Westerleigh, Bulls Head, New Springville,
+              Willowbrook, and surrounding neighborhoods.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>South Shore</h3>
+            <p>
+              Our EPDM roofing service area includes Great Kills, Eltingville, Annadale,
+              Huguenot, Prince’s Bay, Tottenville, Richmond Valley, Pleasant Plains,
+              Charleston, Rossville, Woodrow, and nearby areas.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -327,6 +491,7 @@
       <div class="container content-block">
         <h2>Maintenance Tips for EPDM Roofs in Staten Island</h2>
         <p>Regular EPDM roof maintenance helps reduce emergency leaks and extend roof performance. Staten Island roofs deal with coastal moisture, wind, snow, heavy rain, rooftop equipment, and seasonal temperature changes. A maintenance plan should focus on drains, seams, flashing, roof edges, penetrations, and debris removal.</p>
+
         <ul>
           <li>Inspect the roof after major wind, rain, snow, or hail events.</li>
           <li>Keep drains, gutters, and scuppers clear.</li>
@@ -337,47 +502,46 @@
         </ul>
       </div>
     </section>
-</section>
 
-<section class="section">
-  <div class="container content-block">
-    <h2>Related Roofing Services</h2>
-    <ul>
-      <li><a href="commercial-roofing.html">Commercial Roofing</a></li>
-      <li><a href="tporoofing.html">TPO Roofing</a></li>
-      <li><a href="torch-down-roofing.html">Torch Down Roofing</a></li>
-      <li><a href="flat-roof-repair.html">Flat Roof Repair</a></li>
-      <li><a href="roof-repair.html">Roof Repair</a></li>
-      <li><a href="residential-roofing.html">Residential Roofing</a></li>
-    </ul>
-  </div>
-</section>
-
+    <section class="section">
+      <div class="container content-block">
+        <h2>Related Roofing Services</h2>
+        <ul>
+          <li><a href="commercial-roofing.html">Commercial Roofing</a></li>
+          <li><a href="tporoofing.html">TPO Roofing</a></li>
+          <li><a href="torch-down-roofing.html">Torch Down Roofing</a></li>
+          <li><a href="flat-roof-repair.html">Flat Roof Repair</a></li>
+          <li><a href="roof-repair.html">Roof Repair</a></li>
+          <li><a href="residential-roofing.html">Residential Roofing</a></li>
+        </ul>
+      </div>
+    </section>
 
     <section class="section alt" id="faq-section">
       <div class="container">
         <h2 class="section-title">30 EPDM Roofing FAQs</h2>
         <p class="section-subtitle">Clear answers for Staten Island property owners, building managers, business owners, and homeowners comparing flat roof systems.</p>
+
         <div class="faq-grid">
-          <div class="faq-item"><h3>1. What is EPDM roofing?</h3><p>EPDM roofing is a single-ply synthetic rubber membrane used on commercial and low-slope flat roofs. It is known for white reflective performance and adhesive/seam-tape systems.</p></div>
+          <div class="faq-item"><h3>1. What is EPDM roofing?</h3><p>EPDM roofing is a single-ply synthetic rubber membrane used on commercial and low-slope flat roofs. It is known for flexibility, durability, and long-term flat roof performance.</p></div>
           <div class="faq-item"><h3>2. Do you install EPDM roofing in Staten Island?</h3><p>Yes. Maximum Roofing installs, repairs, replaces, inspects, and maintains EPDM roofing throughout Staten Island.</p></div>
           <div class="faq-item"><h3>3. Is EPDM good for commercial flat roofs?</h3><p>Yes. EPDM is a popular commercial flat roof system for warehouses, offices, restaurants, retail properties, apartments, and mixed-use buildings.</p></div>
-          <div class="faq-item"><h3>4. How long does a EPDM roof last?</h3><p>Lifespan depends on installation quality, membrane thickness, drainage, maintenance, weather, roof traffic, and building conditions.</p></div>
+          <div class="faq-item"><h3>4. How long does an EPDM roof last?</h3><p>Lifespan depends on installation quality, membrane thickness, drainage, maintenance, weather, roof traffic, and building conditions.</p></div>
           <div class="faq-item"><h3>5. Can EPDM roofing be repaired?</h3><p>Yes. Localized EPDM damage, punctures, seam issues, and flashing leaks can often be repaired when the roof is otherwise serviceable.</p></div>
           <div class="faq-item"><h3>6. What causes EPDM roof leaks?</h3><p>Leaks often come from open seams, punctures, flashing failures, ponding water, storm damage, roof penetrations, or loose edge details.</p></div>
-          <div class="faq-item"><h3>7. Is EPDM better than EPDM?</h3><p>EPDM is usually white and reflective with adhesive/seam-tape systems. EPDM is a rubber membrane known for flexibility. The better system depends on the roof.</p></div>
-          <div class="faq-item"><h3>8. Is EPDM better than torch down?</h3><p>EPDM and torch down serve different flat roof needs. EPDM is single-ply and reflective; torch down is modified bitumen. An inspection helps determine the better fit.</p></div>
-          <div class="faq-item"><h3>9. What is the best commercial roofing system?</h3><p>There is no single best system for every building. EPDM, EPDM, PVC, torch down, and coatings each have advantages depending on the property.</p></div>
-          <div class="faq-item"><h3>10. Does EPDM lower energy bills?</h3><p>White EPDM can reduce heat absorption. Energy impact depends on insulation, roof design, building use, ventilation, and the full building envelope.</p></div>
+          <div class="faq-item"><h3>7. Is EPDM better than TPO?</h3><p>EPDM is a rubber membrane known for flexibility. TPO is usually white and reflective with heat-welded seams. The better system depends on the roof.</p></div>
+          <div class="faq-item"><h3>8. Is EPDM better than torch down?</h3><p>EPDM and torch down serve different flat roof needs. EPDM is a rubber single-ply membrane; torch down is modified bitumen. An inspection helps determine the better fit.</p></div>
+          <div class="faq-item"><h3>9. What is the best commercial roofing system?</h3><p>There is no single best system for every building. EPDM, TPO, PVC, torch down, and coatings each have advantages depending on the property.</p></div>
+          <div class="faq-item"><h3>10. Does EPDM lower energy bills?</h3><p>Energy impact depends on membrane color, insulation, roof design, building use, ventilation, and the full building envelope.</p></div>
           <div class="faq-item"><h3>11. How long does EPDM installation take?</h3><p>Timeline depends on roof size, weather, tear-off needs, insulation, access, penetrations, and the complexity of the roof details.</p></div>
           <div class="faq-item"><h3>12. Can EPDM be installed over an existing roof?</h3><p>Sometimes. The existing roof, moisture condition, number of layers, local code, and manufacturer requirements must be checked first.</p></div>
           <div class="faq-item"><h3>13. Is EPDM waterproof?</h3><p>A properly installed EPDM system is designed to be watertight. Performance depends on seams, flashing, drainage, edges, and maintenance.</p></div>
-          <div class="faq-item"><h3>14. Does EPDM resist UV damage?</h3><p>EPDM is designed for roof exposure and is commonly selected for reflective performance, but all roofs still need inspections and maintenance.</p></div>
+          <div class="faq-item"><h3>14. Does EPDM resist UV damage?</h3><p>EPDM is designed for roof exposure, but all roofs still need inspections and maintenance.</p></div>
           <div class="faq-item"><h3>15. Can EPDM withstand snow and ice?</h3><p>EPDM can perform in cold weather when installed correctly. Snow load, drainage, freeze-thaw cycles, and roof details still need attention.</p></div>
-          <div class="faq-item"><h3>16. Is EPDM environmentally friendly?</h3><p>EPDM is often chosen for reflectivity and energy-conscious roofing goals. The full environmental impact depends on insulation, building performance, and roof lifecycle.</p></div>
+          <div class="faq-item"><h3>16. Is EPDM environmentally friendly?</h3><p>The full environmental impact depends on insulation, building performance, roof lifecycle, repairs, and replacement timing.</p></div>
           <div class="faq-item"><h3>17. What thickness of EPDM is best?</h3><p>Common choices include 45 mil, 60 mil, and thicker membranes. The best thickness depends on traffic, warranty goals, building use, and budget.</p></div>
           <div class="faq-item"><h3>18. Do EPDM roofs require maintenance?</h3><p>Yes. Maintenance helps catch small problems early, protect seams and flashing, and keep drains clear.</p></div>
-          <div class="faq-item"><h3>19. How often should a EPDM roof be inspected?</h3><p>Most commercial roofs should be inspected at least once or twice a year and after major storms or rooftop construction work.</p></div>
+          <div class="faq-item"><h3>19. How often should an EPDM roof be inspected?</h3><p>Most commercial roofs should be inspected at least once or twice a year and after major storms or rooftop construction work.</p></div>
           <div class="faq-item"><h3>20. Can punctured EPDM be repaired?</h3><p>Yes. Many punctures can be patched or repaired by a qualified roofing contractor if the surrounding membrane is in good condition.</p></div>
           <div class="faq-item"><h3>21. Do you provide emergency EPDM roof repair?</h3><p>Yes. Call Maximum Roofing for urgent roof leaks, storm damage, and emergency flat roof repair in Staten Island.</p></div>
           <div class="faq-item"><h3>22. Do you install EPDM on warehouses?</h3><p>Yes. EPDM is commonly used on large warehouse and industrial flat roofs.</p></div>
@@ -385,10 +549,10 @@
           <div class="faq-item"><h3>24. Do you install EPDM on restaurants?</h3><p>Yes. Restaurant roofs need special attention around exhaust fans, grease exposure, HVAC units, and service traffic.</p></div>
           <div class="faq-item"><h3>25. Are you licensed and insured?</h3><p>Maximum Roofing presents itself as licensed and insured. Confirm project-specific license, insurance, and warranty details during your estimate.</p></div>
           <div class="faq-item"><h3>26. Do you offer free estimates?</h3><p>Yes. Use the form or call (732) 395-3945 to request a free EPDM roofing estimate.</p></div>
-          <div class="faq-item"><h3>27. What areas do you serve besides Staten Island?</h3><p>Maximum Roofing serves Staten Island and surrounding NYC borough areas. Call to confirm availability for your property address.</p></div>
+          <div class="faq-item"><h3>27. What areas do you serve?</h3><p>Maximum Roofing serves Staten Island, including North Shore, South Shore, East Shore, Mid-Island, and surrounding communities.</p></div>
           <div class="faq-item"><h3>28. Why choose Maximum Roofing?</h3><p>Choose Maximum Roofing for local roof inspections, clear communication, EPDM repair, commercial flat roof replacement, and Staten Island roofing experience.</p></div>
-          <div class="faq-item"><h3>29. How do I schedule a EPDM roof inspection?</h3><p>Call (732) 395-3945 or submit the contact form and request a EPDM roof inspection for your property.</p></div>
-          <div class="faq-item"><h3>30. Can you help compare EPDM, EPDM, torch down, and silicone coating?</h3><p>Yes. We can inspect the roof and explain whether repair, replacement, membrane roofing, modified bitumen, or coating makes the most sense.</p></div>
+          <div class="faq-item"><h3>29. How do I schedule an EPDM roof inspection?</h3><p>Call (732) 395-3945 or submit the contact form and request an EPDM roof inspection for your property.</p></div>
+          <div class="faq-item"><h3>30. Can you help compare EPDM, TPO, torch down, and silicone coating?</h3><p>Yes. We can inspect the roof and explain whether repair, replacement, membrane roofing, modified bitumen, or coating makes the most sense.</p></div>
         </div>
       </div>
     </section>
@@ -398,12 +562,15 @@
         <div class="form-card">
           <h2 class="section-title" style="margin-bottom:8px">Request Your Free EPDM Roofing Estimate</h2>
           <p class="section-subtitle" style="margin-bottom:28px">Tell us about your roof, leak, building, or replacement project. A Maximum Roofing specialist will contact you.</p>
+
           <form id="contactForm" name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
             <input type="hidden" name="form-name" value="contact" />
             <p style="display:none"><label>Do not fill this out: <input name="bot-field" /></label></p>
+
             <div class="form-group"><input type="text" name="name" placeholder="Full Name" required /></div>
             <div class="form-group"><input type="email" name="email" placeholder="Email Address" required /></div>
             <div class="form-group"><input type="tel" name="phone" placeholder="Phone Number" required /></div>
+
             <div class="form-group">
               <select name="service" required>
                 <option value="">Select Service Needed</option>
@@ -412,12 +579,14 @@
                 <option value="EPDM Roof Replacement">EPDM Roof Replacement</option>
                 <option value="Commercial Flat Roof Repair">Commercial Flat Roof Repair</option>
                 <option value="Emergency Roof Leak Repair">Emergency Roof Leak Repair</option>
-                <option value="EPDM / Torch Down / Coating Comparison">EPDM / Torch Down / Coating Comparison</option>
+                <option value="EPDM / TPO / Torch Down / Coating Comparison">EPDM / TPO / Torch Down / Coating Comparison</option>
               </select>
             </div>
+
             <div class="form-group"><textarea name="message" rows="5" placeholder="Tell us about your building, roof problem, leak, or project..."></textarea></div>
             <button type="submit" id="submitBtn" class="btn-primary" style="width:100%;font-size:1rem">Submit Request</button>
           </form>
+
           <div class="success" id="formSuccess">
             <h3>Request Received!</h3>
             <p>A Maximum Roofing specialist will contact you. For urgent leaks, call <a href="tel:+17323953945">(732) 395-3945</a>.</p>
@@ -430,12 +599,41 @@
   <footer>
     <div class="container">
       <div class="footer-grid">
-        <div><h3>Maximum Roofing</h3><p>Staten Island roofing contractor for EPDM roofing, commercial flat roofing, roof repair, and roof replacement.</p></div>
-        <div><h4>Services</h4><a href="epdm-roofing.html">EPDM Roofing</a><a href="commercial-roofing.html">Commercial Roofing</a><a href="epdm-roofing.html">EPDM Roofing</a><a href="torch-down-roofing.html">Torch Down Roofing</a><a href="roof-repair.html">Roof Repair</a></div>
-        <div><h4>Service Areas</h4><a href="#">Staten Island</a><a href="#">Great Kills</a><a href="#">Tottenville</a><a href="#">New Dorp</a><a href="#">St. George</a><a href="#">Port Richmond</a></div>
-        <div><h4>Contact</h4><a href="tel:+17323953945">(732) 395-3945</a><a href="mailto:jamesdemetro94@gmail.com">jamesdemetro94@gmail.com</a><p>11 John St.<br />Staten Island, NY 10302</p></div>
+        <div>
+          <h3>Maximum Roofing</h3>
+          <p>Staten Island roofing contractor for EPDM roofing, commercial flat roofing, roof repair, and roof replacement.</p>
+        </div>
+
+        <div>
+          <h4>Services</h4>
+          <a href="epdm-roofing.html">EPDM Roofing</a>
+          <a href="commercial-roofing.html">Commercial Roofing</a>
+          <a href="tporoofing.html">TPO Roofing</a>
+          <a href="torch-down-roofing.html">Torch Down Roofing</a>
+          <a href="flat-roof-repair.html">Flat Roof Repair</a>
+          <a href="roof-repair.html">Roof Repair</a>
+        </div>
+
+        <div>
+          <h4>Service Areas</h4>
+          <a href="#contact">Staten Island</a>
+          <a href="#contact">North Shore</a>
+          <a href="#contact">South Shore</a>
+          <a href="#contact">Mid-Island</a>
+          <a href="#contact">East Shore</a>
+        </div>
+
+        <div>
+          <h4>Contact</h4>
+          <a href="tel:+17323953945">(732) 395-3945</a>
+          <a href="mailto:jamesdemetro94@gmail.com">jamesdemetro94@gmail.com</a>
+          <p>11 John St.<br />Staten Island, NY 10302</p>
+        </div>
       </div>
-      <div class="footer-bottom"><p>&copy; 2026 Maximum Roofing. All rights reserved.</p></div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Maximum Roofing. All rights reserved.</p>
+      </div>
     </div>
   </footer>
 
@@ -474,4 +672,3 @@
   </script>
 </body>
 </html>
-<li><a href="roof-repair.html">Roof Repair</a></li>
