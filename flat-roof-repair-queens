@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Flat Roof Repair &amp; Structural Waterproofing | Queens, NY | Maximum Roofing</title>
+  <meta name="description" content="Maximum Roofing provides flat roof repair in Queens, NY, including leak detection, torch down repair, TPO and EPDM membrane service, metal roof repair, modified bitumen repair, and structural waterproofing.">
+  <link rel="canonical" href="https://maximumroofing.us/flat-roof-repair-queens/">
+  <meta property="og:title" content="Flat Roof Repair &amp; Structural Waterproofing | Queens, NY | Maximum Roofing">
+  <meta property="og:description" content="Premium flat roof repair in Queens, NY with leak detection, torch down repair, TPO, EPDM, metal roof repair, modified bitumen repair, and structural waterproofing.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://maximumroofing.us/flat-roof-repair-queens/">
+  <style>
+    :root { --bg:#ffffff; --text:#172033; --muted:#5d6678; --line:#e7eaf0; --dark:#111827; --soft:#f6f8fb; --accent:#b42318; }
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--text); background:var(--bg); line-height:1.6; }
+    .wrap { max-width:1100px; margin:0 auto; padding:0 22px; }
+
+    .site-nav { background:white; border-bottom:1px solid var(--line); position:sticky; top:0; z-index:20; }
+    .nav-inner { max-width:1100px; margin:0 auto; padding:14px 22px; display:flex; align-items:center; justify-content:space-between; gap:20px; }
+    .brand { font-weight:800; color:#111827; text-decoration:none; letter-spacing:.02em; }
+    .nav-links { display:flex; align-items:center; gap:16px; flex-wrap:wrap; }
+    .nav-links a { color:#334155; text-decoration:none; font-weight:700; font-size:14px; }
+    .nav-links a:hover, .nav-links a.active { color:var(--accent); }
+    .nav-call { background:var(--accent); color:white !important; padding:9px 13px; border-radius:999px; }
+    .hero { background:linear-gradient(135deg,#111827,#2d3748); color:white; padding:74px 0 104px; position:relative; overflow:hidden; }
+    .hero::after { content:""; position:absolute; left:-8%; right:-8%; bottom:-92px; height:150px; background:white; border-radius:50% 50% 0 0 / 100% 100% 0 0; }
+    .hero .wrap { position:relative; z-index:1; }
+    .hero p { max-width:760px; color:#e5e7eb; font-size:18px; }
+    h1 { font-size:44px; line-height:1.1; margin:0 0 18px; }
+    h2 { font-size:30px; line-height:1.25; margin:48px 0 16px; color:#111827; }
+    h3 { font-size:21px; margin:28px 0 8px; color:#111827; }
+    .btn { display:inline-block; margin-top:18px; background:var(--accent); color:white; padding:13px 20px; border-radius:8px; text-decoration:none; font-weight:700; }
+    .section { padding:42px 0; }
+    .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
+    .card { border:1px solid var(--line); border-radius:14px; padding:22px; background:white; box-shadow:0 8px 24px rgba(17,24,39,.05); }
+    .soft { background:var(--soft); border-top:1px solid var(--line); border-bottom:1px solid var(--line); }
+    ul { padding-left:22px; }
+    li { margin:7px 0; }
+    .facts { columns:2; column-gap:34px; }
+    .facts li { break-inside:avoid; }
+     .neighborhoods { background:white; border-left:4px solid var(--accent); padding:18px 22px; border-radius:8px; }
+    .service-area-intro { max-width:780px; color:var(--muted); }
+    .map-placeholder { width:100%; height:400px; border:1px solid var(--line); border-radius:16px; background:#ffffff; display:flex; align-items:center; justify-content:center; text-align:center; color:var(--muted); font-weight:700; margin:24px 0; box-shadow:0 8px 24px rgba(17,24,39,.05); }
+    .area-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:20px; }
+    .area-card { background:white; border:1px solid var(--line); border-radius:14px; padding:22px; box-shadow:0 8px 24px rgba(17,24,39,.05); }
+    .area-card h3 { margin-top:0; }
+    .area-card ul { margin-bottom:0; }
+    .faq { border-top:1px solid var(--line); padding:20px 0; }
+    .muted { color:var(--muted); }
+    .eyebrow { text-transform:uppercase; letter-spacing:.12em; font-size:13px; font-weight:700; color:#cbd5e1; margin:0 0 12px; }
+    .trust { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:26px; }
+    .trust .card { border-top:4px solid var(--accent); }
+    .note { background:#fff7ed; border:1px solid #fed7aa; border-radius:12px; padding:16px 18px; color:#7c2d12; }
+    .cta { background:#111827; color:white; padding:44px 0; margin-top:35px; }
+    .cta h2 { color:white; margin-top:0; }
+    .cta p { color:#e5e7eb; }
+    @media (max-width:800px) { h1{font-size:34px}.grid,.trust,.area-grid{grid-template-columns:1fr}.facts{columns:1}.hero{padding:48px 0 82px}.nav-inner{align-items:flex-start;flex-direction:column}.nav-links{gap:12px} }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RoofingContractor",
+    "name": "Maximum Roofing",
+    "url": "https://maximumroofing.us/flat-roof-repair-queens/",
+    "areaServed": {
+      "@type": "City",
+      "name": "Queens",
+      "addressRegion": "NY",
+      "addressCountry": "US"
+    },
+    "serviceType": [
+      "Flat roof repair",
+      "Structural waterproofing",
+      "Roof leak repair",
+      "Torch down roofing",
+      "TPO roofing",
+      "EPDM roofing",
+      "Metal roofing",
+      "Modified bitumen roofing",
+      "Commercial roofing",
+      "Roof inspection",
+      "Roof replacement"
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {"@type":"Question","name":"Do you repair flat roofs in Queens?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing provides flat roof repair services for residential, commercial, and multi-family properties in Queens, NY."}},
+      {"@type":"Question","name":"Do you fix roof leaks?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing repairs roof leaks caused by damaged roofing material, flashing problems, seams, drains, vents, roof edges, and storm damage."}},
+      {"@type":"Question","name":"Do you work on torch down roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing provides torch down roofing repair and related flat roof services for low-slope roofing systems."}},
+      {"@type":"Question","name":"Do you work on TPO, EPDM, and metal roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing provides service for TPO roofing, EPDM roofing, metal roofing, torch down roofing, and modified bitumen roofing systems in Queens."}},
+      {"@type":"Question","name":"Do you repair commercial roofs?","acceptedAnswer":{"@type":"Answer","text":"Yes. Maximum Roofing repairs commercial flat roofs, low-slope roofs, and roofing systems used on stores, offices, warehouses, and apartment buildings."}},
+      {"@type":"Question","name":"What areas of Queens do you serve?","acceptedAnswer":{"@type":"Answer","text":"Maximum Roofing serves primary Queens neighborhoods including Astoria, Long Island City, Sunnyside, Woodside, Jackson Heights, Forest Hills, Rego Park, Elmhurst, Corona, Flushing, Jamaica, Richmond Hill, Ozone Park, Howard Beach, and Queens Village."}},
+      {"@type":"Question","name":"Should I repair or replace my flat roof?","acceptedAnswer":{"@type":"Answer","text":"It depends on the age of the roof, the amount of damage, the leak location, drainage conditions, and the condition of the roofing system. Maximum Roofing can inspect the roof and explain the best option."}}
+      ,{"@type":"Question","name":"Do you offer emergency roof leak repair in Queens?","acceptedAnswer":{"@type":"Answer","text":"Maximum Roofing offers fast-response service for active roof leaks in Queens, subject to scheduling, site access, and weather conditions."}}
+      ,{"@type":"Question","name":"Do you provide warranties or guarantees?","acceptedAnswer":{"@type":"Answer","text":"Warranty options depend on the roof system, repair scope, and materials used. Maximum Roofing explains applicable labor and material coverage before work begins."}}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="brand" href="/">Maximum Roofing</a>
+      <div class="nav-links">
+        <a href="/">Home</a>
+        <a href="/#services">Services</a>
+        <a class="active" href="/flat-roof-repair-queens/">Flat Roof Repair Queens</a>
+        <a class="nav-call" href="tel:+17323953945">Call 732-395-3945</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap">
+      <p class="eyebrow">Queens Roofing Contractor</p>
+      <h1>Flat Roof Repair &amp; Structural Waterproofing | Queens, NY</h1>
+      <p>Maximum Roofing provides flat roof repair in Queens, NY, including leak detection, torch down roof repair, TPO and EPDM membrane service, metal roof repair, modified bitumen repair, and structural waterproofing for active water intrusion.</p>
+      <a class="btn" href="tel:+17323953945">Call 732-395-3945</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <h2>Queens Flat Roof Repair Services</h2>
+        <p>Flat roofs are common on Queens homes, apartment buildings, storefronts, and commercial properties. When a flat roof starts leaking, the problem may come from damaged roofing material, separated seams, loose flashing, clogged drains, roof edges, parapet walls, or roof penetrations such as vents and pipes.</p>
+        <p>This page is focused on flat roof repair in Queens first. Structural waterproofing, TPO, EPDM, metal roofing, torch down, and modified bitumen are included as related services because they are often part of solving the same leak or water-intrusion problem.</p>
+        <p>Maximum Roofing helps Queens property owners identify the source of the problem and choose the right repair method for the roofing system on the building. Our goal is simple: stop the leak, protect the structure, waterproof vulnerable areas, and explain the repair clearly before work begins.</p>
+
+        <div class="trust">
+          <div class="card"><h3>Licensed &amp; Insured Approach</h3><p>Work is planned with safety, proper access, and applicable New York City building requirements in mind. We can review project details, insurance needs, and DOB-related considerations before work begins.</p></div>
+          <div class="card"><h3>Clear Warranty Options</h3><p>Repair and installation coverage depends on the roof system, material, and scope of work. Maximum Roofing explains labor and material warranty options before you approve the job.</p></div>
+          <div class="card"><h3>Emergency Leak Response</h3><p>For active leaks, we prioritize fast inspection and practical temporary or permanent repairs when weather, roof access, and site conditions allow.</p></div>
+        </div>
+
+        <h2>Roofing Systems We Service</h2>
+        <div class="grid">
+          <div class="card"><h3>Flat Roof Leak Repair</h3><p>We trace water entry from seams, drains, flashing, parapet walls, vents, and roof edges so the repair addresses the source instead of only the ceiling stain.</p></div>
+          <div class="card"><h3>Torch Down Roofing</h3><p>Heavy-duty modified bitumen systems for low-slope roofs. We handle membrane patches, seam issues, flashing tie-ins, and leak repairs where heat-applied roofing is already installed.</p></div>
+          <div class="card"><h3>TPO Roofing</h3><p>Energy-efficient, white thermoplastic single-ply membranes. We specialize in hot-air welded seam repairs, flashing corrections, puncture patches, and commercial leak service.</p></div>
+          <div class="card"><h3>EPDM Roofing</h3><p>Durable rubber membrane roofing for low-slope buildings. We repair punctures, open laps, edge details, pipe boots, and drainage-related leak points.</p></div>
+          <div class="card"><h3>Metal Roofing</h3><p>For metal panels, transitions, fasteners, counter-flashing, and roof-edge details, we look for movement, rust, failed sealant, and water paths that cause recurring leaks.</p></div>
+          <div class="card"><h3>Structural Waterproofing</h3><p>Waterproofing support for roof edges, parapet walls, penetrations, masonry tie-ins, and vulnerable transitions where rainwater can enter the building envelope.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <h2>Common Flat Roof Problems We Fix</h2>
+        <ul>
+          <li>Roof leaks after rain, snow, ice, or wind</li>
+          <li>Standing water or poor drainage</li>
+          <li>Separated seams on torch down, TPO, EPDM, or modified bitumen roofs</li>
+          <li>Metal roof leaks around panels, fasteners, seams, or flashing</li>
+          <li>Cracks, bubbles, blisters, punctures, and worn roofing material</li>
+          <li>Loose flashing around roof edges, walls, skylights, and vents</li>
+          <li>Damaged roof drains, pipe penetrations, and rooftop equipment areas</li>
+          <li>Commercial flat roof leaks that affect tenants, inventory, or business operations</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <h2>TPO, EPDM, Metal, Torch Down &amp; Modified Bitumen Roofing in Queens</h2>
+        <p>Queens buildings can use different roofing systems depending on the structure, slope, drainage, and use of the property. Maximum Roofing works with common flat and low-slope systems including TPO roofing, EPDM roofing, torch down roofing, modified bitumen roofing, and metal roofing.</p>
+        <p>Torch down and modified bitumen are common choices for flat and low-slope roofs. TPO is often used on commercial flat roofs because it is a single-ply roofing system. EPDM is a rubber roofing system used on many low-slope roofs. Metal roofing can appear on commercial buildings, additions, canopies, and sloped roof sections.</p>
+        <p>Maximum Roofing can inspect the existing roof system and explain whether a repair, patch, waterproofing detail, maintenance service, coating, or replacement is the better option for the building.</p>
+        <div class="note"><strong>Premium, not pushy:</strong> our estimates are written to explain the roof condition, the likely water-entry points, the recommended repair scope, and the limits of any warranty or temporary repair.</div>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <h2>Our Queens Service Areas</h2>
+        <p class="service-area-intro">Maximum Roofing proudly serves residential and commercial property owners throughout Queens. View our service map below or check our list of primary neighborhoods to see if we cover your area.</p>
+        <div class="map-placeholder">[ INSERT EMBEDDED GOOGLE MAP HERE - Full Width, 400px Height ]</div>
+        <div class="area-grid" aria-label="Queens service areas">
+          <div class="area-card">
+            <h3>Northwest Queens</h3>
+            <ul>
+              <li>Astoria</li>
+              <li>Long Island City</li>
+              <li>Sunnyside</li>
+              <li>Woodside</li>
+              <li>Jackson Heights</li>
+            </ul>
+          </div>
+          <div class="area-card">
+            <h3>Central Queens</h3>
+            <ul>
+              <li>Forest Hills</li>
+              <li>Rego Park</li>
+              <li>Elmhurst</li>
+              <li>Corona</li>
+              <li>Flushing</li>
+            </ul>
+          </div>
+          <div class="area-card">
+            <h3>South &amp; East Queens</h3>
+            <ul>
+              <li>Jamaica</li>
+              <li>Richmond Hill</li>
+              <li>Ozone Park</li>
+              <li>Howard Beach</li>
+              <li>Queens Village</li>
+            </ul>
+          </div>
+        </div>
+
+        <h2>40 Helpful Roofing Facts for Queens Property Owners</h2>
+        <ol class="facts">
+          <li>Flat roofs are common on Queens homes, stores, apartment buildings, and commercial properties.</li>
+          <li>Flat roofs are not completely flat; they need slight slope so water can drain.</li>
+          <li>Standing water can damage roofing material over time.</li>
+          <li>Roof leaks often begin around seams, flashing, drains, skylights, vents, and roof edges.</li>
+          <li>Small cracks can become larger leaks if they are ignored.</li>
+          <li>Torch down roofing is often used on flat and low-slope roofs.</li>
+          <li>Modified bitumen roofing is a common flat roof system in New York.</li>
+          <li>TPO roofing is often used on commercial flat roofs.</li>
+          <li>EPDM roofing is another option for low-slope and commercial roofs.</li>
+          <li>A roof inspection can help find problems before water enters the building.</li>
+          <li>Water stains on ceilings may mean the roof has been leaking for some time.</li>
+          <li>Bubbles or blisters on a flat roof can be a warning sign.</li>
+          <li>Loose flashing can allow water to enter around walls or roof edges.</li>
+          <li>Clogged roof drains can cause water to collect on the roof.</li>
+          <li>Queens roofs can be affected by snow, ice, rain, heat, and wind.</li>
+          <li>Emergency roof repairs may be needed after storms or sudden leaks.</li>
+          <li>A roof patch can help in some cases, but not every roof can be fixed with a patch.</li>
+          <li>Older roofs may need replacement instead of repeated repairs.</li>
+          <li>Commercial buildings often need roof maintenance to protect inventory, tenants, and equipment.</li>
+          <li>Roof maintenance can help extend the life of a flat roof.</li>
+          <li>The best repair depends on the roofing material already installed, including TPO, EPDM, metal, torch down, or modified bitumen.</li>
+          <li>Some leaks are not directly above the water stain because water can travel under roofing layers.</li>
+          <li>Roof edges and parapet walls are common leak areas in Queens buildings.</li>
+          <li>Roof penetrations, such as vents and pipes, should be sealed properly.</li>
+          <li>A professional roofer should check the roof before recommending repair or replacement.</li>
+          <li>Walking on a damaged flat roof can make some problems worse.</li>
+          <li>Pooling water can add weight to a roof.</li>
+          <li>Commercial roof leaks can interrupt business operations.</li>
+          <li>Residential roof leaks can damage ceilings, walls, insulation, and electrical areas.</li>
+          <li>Preventive maintenance is usually less expensive than emergency repairs.</li>
+          <li>A good flat roof repair should address the cause of the leak, not just the visible water spot.</li>
+          <li>Roof coatings may help some roofs, but they are not the right solution for every roof.</li>
+          <li>Modified bitumen, TPO, EPDM, and metal roofs can often be repaired when the damage is limited.</li>
+          <li>Torch down roofs, TPO roofs, EPDM roofs, and metal roofs each require the right repair method for that material.</li>
+          <li>A roof estimate should explain the problem, the repair method, and the expected result.</li>
+          <li>Photos of roof damage can help property owners understand the issue.</li>
+          <li>Queens property owners should not wait when they see active leaking.</li>
+          <li>Seasonal inspections can help catch damage after winter or heavy storms.</li>
+          <li>The right roofing system depends on the building, roof slope, drainage, and budget.</li>
+          <li>Maximum Roofing helps Queens property owners with inspections, repairs, replacements, structural waterproofing, TPO, EPDM, metal, torch down, modified bitumen, and flat roofing solutions.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section soft">
+      <div class="wrap">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq"><h3>Do you repair flat roofs in Queens?</h3><p>Yes. Maximum Roofing provides flat roof repair services for residential, commercial, and multi-family properties in Queens, NY.</p></div>
+        <div class="faq"><h3>Do you fix roof leaks?</h3><p>Yes. We repair roof leaks caused by damaged roofing material, flashing problems, seams, drains, vents, roof edges, and storm damage.</p></div>
+        <div class="faq"><h3>Do you work on torch down roofs?</h3><p>Yes. We provide torch down roofing repair and related flat roof services for low-slope roofing systems.</p></div>
+        <div class="faq"><h3>Do you work on TPO, EPDM, and metal roofs?</h3><p>Yes. Maximum Roofing provides service for TPO roofing, EPDM roofing, metal roofing, torch down roofing, and modified bitumen roofing systems in Queens.</p></div>
+        <div class="faq"><h3>Do you repair commercial roofs?</h3><p>Yes. We repair commercial flat roofs, low-slope roofs, and roofing systems used on stores, offices, warehouses, and apartment buildings.</p></div>
+        <div class="faq"><h3>What areas of Queens do you serve?</h3><p>We serve primary Queens neighborhoods including Astoria, Long Island City, Sunnyside, Woodside, Jackson Heights, Forest Hills, Rego Park, Elmhurst, Corona, Flushing, Jamaica, Richmond Hill, Ozone Park, Howard Beach, and Queens Village.</p></div>
+        <div class="faq"><h3>Should I repair or replace my flat roof?</h3><p>It depends on the age of the roof, the amount of damage, the leak location, drainage conditions, and the condition of the roofing system. Maximum Roofing can inspect the roof and explain the best option.</p></div>
+        <div class="faq"><h3>Do you offer emergency roof leak repair in Queens?</h3><p>Yes. For active leaks, Maximum Roofing prioritizes fast inspection and practical repair options when weather, roof access, and site conditions allow.</p></div>
+        <div class="faq"><h3>Do you provide warranties or guarantees?</h3><p>Warranty options depend on the roof system, materials used, and approved scope of work. We explain applicable labor and material coverage before the project begins.</p></div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <div class="wrap">
+        <h2>Request a Flat Roof Repair Estimate in Queens</h2>
+        <p>Have a roof leak, damaged flat roof, TPO roof, EPDM roof, metal roof, torch down roof, or commercial roofing problem in Queens? Contact Maximum Roofing to schedule an inspection and get a clear repair recommendation.</p>
+        <a class="btn" href="tel:+17323953945">Call Maximum Roofing</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
