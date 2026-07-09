@@ -28,121 +28,149 @@
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": [
-        "LocalBusiness",
-        "RoofingContractor"
-      ],
+      "@type": ["LocalBusiness","RoofingContractor"],
       "@id": "https://www.maximumroofing.us/#roofingcontractor",
       "name": "Maximum Roofing",
       "url": "https://www.maximumroofing.us/",
       "telephone": "+17323953945",
-    "email": "jamesleo@maximumroofing.us",
+      "email": "jamesleo@maximumroofing.us",
       "priceRange": "$$",
+      "image": "https://www.maximumroofing.us/og-image.jpg",
+      "description": "Maximum Roofing provides commercial roofing, residential roofing, roof repair, emergency roof leak repair, flat roof repair, TPO roofing, EPDM roofing, torch down roofing, commercial silicone roof coatings, vinyl siding, gutters, and skylight services throughout Staten Island, Brooklyn, Queens, and the Bronx.",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "11 John St",
+        "streetAddress": "11 John Street",
         "addressLocality": "Staten Island",
         "addressRegion": "NY",
         "postalCode": "10302",
         "addressCountry": "US"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 40.6384,
+        "longitude": -74.1372
+      },
       "areaServed": [
         {
           "@type": "Place",
-          "name": "St. George"
+          "name": "Staten Island"
         },
         {
           "@type": "Place",
-          "name": "New Dorp"
+          "name": "Brooklyn"
         },
         {
           "@type": "Place",
-          "name": "Great Kills"
+          "name": "Queens"
         },
         {
           "@type": "Place",
-          "name": "Tottenville"
+          "name": "Bronx"
         },
         {
           "@type": "Place",
-          "name": "Port Richmond"
-        },
-        {
-          "@type": "Place",
-          "name": "Eltingville"
-        },
-        {
-          "@type": "Place",
-          "name": "Annadale"
-        },
-        {
-          "@type": "Place",
-          "name": "Huguenot"
-        },
-        {
-          "@type": "Place",
-          "name": "West Brighton"
-        },
-        {
-          "@type": "Place",
-          "name": "Westerleigh"
-        },
-        {
-          "@type": "Place",
-          "name": "Mariners Harbor"
-        },
-        {
-          "@type": "Place",
-          "name": "Willowbrook"
-        },
-        {
-          "@type": "Place",
-          "name": "Dongan Hills"
-        },
-        {
-          "@type": "Place",
-          "name": "South Beach"
-        },
-        {
-          "@type": "Place",
-          "name": "Richmondtown"
-        },
-        {
-          "@type": "Place",
-          "name": "Bulls Head"
-        },
-        {
-          "@type": "Place",
-          "name": "Charleston"
-        },
-        {
-          "@type": "Place",
-          "name": "Rosebank"
-        },
-        {
-          "@type": "Place",
-          "name": "Stapleton"
-        },
-        {
-{
-  "@type": "Place",
-  "name": "Tompkinsville"
-},
-{
-  "@type": "Place",
-  "name": "Brooklyn"
-},
-{
-  "@type": "Place",
-  "name": "Queens"
-},
-{
-  "@type": "Place",
-  "name": "Bronx"
-}
-],
+          "name": "New York City"
+        }
       ],
-      "description": "Maximum Roofing provides commercial roofing, residential roofing, roof repair, flat roof repair, TPO, EPDM, torch down, silicone roof coatings, vinyl siding, gutters, and skylights in Staten Island."
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Roofing and Exterior Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial Roofing",
+              "url": "https://www.maximumroofing.us/commercial-roofing.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Residential Roofing",
+              "url": "https://www.maximumroofing.us/residential-roofing.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Roof Repair",
+              "url": "https://www.maximumroofing.us/roof-repair.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Flat Roof Repair",
+              "url": "https://www.maximumroofing.us/flat-roof-repair.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "TPO Roofing",
+              "url": "https://www.maximumroofing.us/tporoofing.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "EPDM Roofing",
+              "url": "https://www.maximumroofing.us/epdm-roofing.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Torch Down Roofing",
+              "url": "https://www.maximumroofing.us/torch-down-roofing.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Commercial Silicone Roof Coatings",
+              "url": "https://www.maximumroofing.us/commercial-silicone-roofing.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Vinyl Siding",
+              "url": "https://www.maximumroofing.us/vinyl-siding.html"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Gutters"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Skylights"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Emergency Roof Leak Repair"
+            }
+          }
+        ]
+      }
     },
     {
       "@type": "WebSite",
@@ -162,7 +190,7 @@
           "name": "Do you provide roofing services in Staten Island?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Maximum Roofing provides residential and commercial roofing services throughout Staten Island."
+            "text": "Yes. Maximum Roofing provides residential and commercial roofing services throughout Staten Island, Brooklyn, Queens, and the Bronx."
           }
         },
         {
@@ -170,7 +198,7 @@
           "name": "Do you repair roof leaks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We repair roof leaks caused by shingles, flashing, skylights, vents, chimneys, flat roof seams, drains, and storm damage."
+            "text": "Yes. Maximum Roofing provides emergency roof leak repair caused by shingles, flashing, skylights, vents, chimneys, flat roof seams, drains, and storm damage."
           }
         },
         {
@@ -178,7 +206,7 @@
           "name": "Do you work on commercial flat roofs?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We work on TPO, EPDM, torch down, modified bitumen, silicone roof coatings, and commercial flat roof repair."
+            "text": "Yes. Maximum Roofing works on TPO, EPDM, torch down, modified bitumen, silicone roof coatings, and commercial flat roof repair."
           }
         },
         {
@@ -186,7 +214,7 @@
           "name": "Do you offer free estimates?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. Call (732) 395-3945 or email jamesdemetro94@gmail.com to request a free estimate."
+            "text": "Yes. Call (732) 395-3945 or email jamesleo@maximumroofing.us to request a free estimate."
           }
         },
         {
@@ -194,14 +222,14 @@
           "name": "Do you install vinyl siding?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes. We provide vinyl siding installation, replacement, repair, soffit, fascia, and exterior trim services."
+            "text": "Yes. Maximum Roofing provides vinyl siding installation, replacement, repair, soffit, fascia, and exterior trim services."
           }
         }
       ]
     }
   ]
 }
-  </script>
+</script>
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
