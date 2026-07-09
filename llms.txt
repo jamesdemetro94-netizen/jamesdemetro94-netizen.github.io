@@ -1,115 +1,59 @@
 # Maximum Roofing
 
-> Professional roofing contractor serving Staten Island, New York.
+> Commercial and residential roofing contractor serving Staten Island, Brooklyn, Queens, and the Bronx, New York. Specializing in TPO roofing, commercial roofing, flat roof repair, and emergency roofing services.
 
-Website: https://www.maximumroofing.us/
+## Website
 
-## Services
-
-- Commercial Roofing
-  https://www.maximumroofing.us/commercial-roofing.html
-
-- Residential Roofing
-  https://www.maximumroofing.us/residential-roofing.html
-
-- Roof Repair
-  https://www.maximumroofing.us/roof-repair.html
-
-- Flat Roof Repair
-  https://www.maximumroofing.us/flat-roof-repair.html
-
-- TPO Roofing
-  https://www.maximumroofing.us/tporoofing.html
-
-- EPDM Roofing
-  https://www.maximumroofing.us/epdm-roofing.html
-
-- Torch Down Roofing
-  https://www.maximumroofing.us/torch-down-roofing.html
-
-- Commercial Silicone Roof Coatings
-  https://www.maximumroofing.us/commercial-silicone-roofing.html
-
-- Vinyl Siding
-  https://www.maximumroofing.us/vinyl-siding.html
+https://www.maximumroofing.us/
 
 ## Contact
 
 Business: Maximum Roofing
-
 Phone: (732) 395-3945
-
 Email: jamesleo@maximumroofing.us
+Address: 11 John Street, Staten Island, NY 10302
 
-Address:
-11 John Street
-Staten Island, NY 10302
+## Key Services
 
-## Service Area
-
-Staten Island, New York
-
-## Sitemap
-
-https://www.maximumroofing.us/sitemap.xml
-# Maximum Roofing
-
-Maximum Roofing is a commercial and residential roofing contractor serving Staten Island, Brooklyn, Queens, and the Bronx.
-
-Website:
-https://www.maximumroofing.us/
-
-Business Information:
-Name: Maximum Roofing
-Phone: (732) 395-3945
-Email: jamesdemetro94@gmail.com
-Address: 11 John St, Staten Island, NY 10302
-
-Primary Services:
 - Commercial Roofing
-- Residential Roofing
-- Roof Repair
-- Emergency Roof Leak Repair
-- Flat Roof Repair
+  https://www.maximumroofing.us/commercial-roofing.html
+  Commercial roof installation, replacement, and repair.
+
 - TPO Roofing
+  https://www.maximumroofing.us/tporoofing.html
+  TPO membrane installation and repair for commercial and flat roofs.
+
+- Flat Roof Repair
+  https://www.maximumroofing.us/flat-roof-repair.html
+  Leak detection and flat roof restoration.
+
+- Roof Repair
+  https://www.maximumroofing.us/roof-repair.html
+  Residential and commercial roof repairs.
+
 - EPDM Roofing
+  https://www.maximumroofing.us/epdm-roofing.html
+  EPDM rubber roofing systems.
+
 - Torch Down Roofing
-- Modified Bitumen Roofing
-- Silicone Roof Coatings
-- Vinyl Siding
-- Gutters
-- Skylights
-# Maximum Roofing
+  https://www.maximumroofing.us/torch-down-roofing.html
+  Modified bitumen and torch-down roofing.
 
-Commercial and residential roofing contractor serving Staten Island, Brooklyn, Queens, and the Bronx, New York.
+- Commercial Silicone Roof Coatings
+  https://www.maximumroofing.us/commercial-silicone-roofing.html
+  Silicone restoration systems for commercial roofs.
 
-## About
-Maximum Roofing provides commercial and residential roofing, roof repair, emergency roof leak repair, flat roof repair, TPO roofing, EPDM roofing, torch down roofing, commercial silicone roof coatings, vinyl siding, gutters, and skylight services throughout Staten Island, Brooklyn, Queens, and the Bronx.
+- Residential Roofing
+  https://www.maximumroofing.us/residential-roofing.html
+  Asphalt shingle roof replacement and repair.
 
-## Contact Information
-- Website: https://www.maximumroofing.us/
-- Phone: (732) 395-3945
-- Email: jamesleo@maximumroofing.us
-- Address: 11 John Street, Staten Island, NY 10302
+## Service Areas
 
-## Services
-- Commercial Roofing: https://www.maximumroofing.us/commercial-roofing.html
-- Residential Roofing: https://www.maximumroofing.us/residential-roofing.html
-- Roof Repair: https://www.maximumroofing.us/roof-repair.html
-- Flat Roof Repair: https://www.maximumroofing.us/flat-roof-repair.html
-- TPO Roofing: https://www.maximumroofing.us/tporoofing.html
-- EPDM Roofing: https://www.maximumroofing.us/epdm-roofing.html
-- Torch Down Roofing: https://www.maximumroofing.us/torch-down-roofing.html
-- Commercial Silicone Roof Coatings: https://www.maximumroofing.us/commercial-silicone-roofing.html
-- Vinyl Siding: https://www.maximumroofing.us/vinyl-siding.html
-
-## Additional Services
-- Gutters
-- Skylights
-- Emergency Roof Leak Repair
-
-## Service Area
-Staten Island, Brooklyn, Queens, and the Bronx, New York.
+- Staten Island
+- Brooklyn
+- Queens
+- Bronx
 
 ## Sitemap
+
 https://www.maximumroofing.us/sitemap.xml
