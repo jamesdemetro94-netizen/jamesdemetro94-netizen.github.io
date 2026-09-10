@@ -1,6 +1,6 @@
 # Maximum Roofing
 
-> Commercial and residential roofing contractor serving Staten Island, Brooklyn, Queens, and the Bronx, New York. Specializing in TPO roofing, commercial roofing, flat roof repair, and emergency roofing services.
+> Commercial and residential roofing contractor serving Staten Island, Brooklyn, Queens, and the Bronx, New York, with additional service coverage in New Jersey. Specializing in TPO roofing, commercial roofing, flat roof repair, and emergency roofing services.
 
 ## Website
 
@@ -53,6 +53,9 @@ Address: 11 John Street, Staten Island, NY 10302
 - Brooklyn
 - Queens
 - Bronx
+
+New Jersey coverage includes Bergen, Passaic, Hudson, and Middlesex counties, plus Newark. See the service-area page for community coverage and inspection contact information:
+https://maximumroofing.us/service-areas.html#new-jersey-service-area
 
 ## Sitemap
 
