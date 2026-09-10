@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.maximumroofing.us/sitemap.xml
+Sitemap: https://maximumroofing.us/sitemap.xml

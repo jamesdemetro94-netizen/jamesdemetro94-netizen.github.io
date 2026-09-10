@@ -4,7 +4,7 @@
 
 ## Website
 
-https://www.maximumroofing.us/
+https://maximumroofing.us/
 
 ## Contact
 
@@ -16,35 +16,35 @@ Address: 11 John Street, Staten Island, NY 10302
 ## Key Services
 
 - Commercial Roofing
-  https://www.maximumroofing.us/commercial-roofing.html
+  https://maximumroofing.us/commercial-roofing.html
   Commercial roof installation, replacement, and repair.
 
 - TPO Roofing
-  https://www.maximumroofing.us/tporoofing.html
+  https://maximumroofing.us/tpo-roofing.html
   TPO membrane installation and repair for commercial and flat roofs.
 
 - Flat Roof Repair
-  https://www.maximumroofing.us/flat-roof-repair.html
+  https://maximumroofing.us/flat-roof-repair.html
   Leak detection and flat roof restoration.
 
 - Roof Repair
-  https://www.maximumroofing.us/roof-repair.html
+  https://maximumroofing.us/roof-repair.html
   Residential and commercial roof repairs.
 
 - EPDM Roofing
-  https://www.maximumroofing.us/epdm-roofing.html
+  https://maximumroofing.us/epdm-roofing.html
   EPDM rubber roofing systems.
 
 - Torch Down Roofing
-  https://www.maximumroofing.us/torch-down-roofing.html
+  https://maximumroofing.us/torch-down-roofing.html
   Modified bitumen and torch-down roofing.
 
 - Commercial Silicone Roof Coatings
-  https://www.maximumroofing.us/commercial-silicone-roofing.html
+  https://maximumroofing.us/commercial-silicone-roofing.html
   Silicone restoration systems for commercial roofs.
 
 - Residential Roofing
-  https://www.maximumroofing.us/residential-roofing.html
+  https://maximumroofing.us/residential-roofing.html
   Asphalt shingle roof replacement and repair.
 
 ## Service Areas
@@ -56,4 +56,4 @@ Address: 11 John Street, Staten Island, NY 10302
 
 ## Sitemap
 
-https://www.maximumroofing.us/sitemap.xml
+https://maximumroofing.us/sitemap.xml
