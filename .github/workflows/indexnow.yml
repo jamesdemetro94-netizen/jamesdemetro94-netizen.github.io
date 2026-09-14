@@ -1,0 +1,140 @@
+name: Submit Maximum Roofing URLs to Bing IndexNow
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.html"
+      - "sitemap.xml"
+      - "robots.txt"
+      - "1005c4f8da3b1218c8c8f6ef61bf203e.txt"
+      - ".github/workflows/indexnow.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  submit-indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out site
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Wait for the IndexNow key to be live
+        shell: bash
+        run: |
+          set -e
+          KEY="1005c4f8da3b1218c8c8f6ef61bf203e"
+          KEY_URL="https://maximumroofing.us/${KEY}.txt"
+          for i in {1..30}; do
+            if curl -fsS "$KEY_URL" | tr -d '\r\n' | grep -Fxq "$KEY"; then
+              echo "IndexNow key is live."
+              exit 0
+            fi
+            echo "Waiting for GitHub Pages deployment..."
+            sleep 10
+          done
+          echo "IndexNow key was not reachable after deployment wait."
+          exit 1
+
+      - name: Submit canonical URLs to Bing IndexNow
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.sha }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import subprocess
+          import urllib.request
+          import xml.etree.ElementTree as ET
+
+          host = "maximumroofing.us"
+          base = f"https://{host}/"
+          key = "1005c4f8da3b1218c8c8f6ef61bf203e"
+          key_location = f"{base}{key}.txt"
+
+          ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+          root = ET.parse("sitemap.xml").getroot()
+          sitemap_urls = [
+              el.text.strip()
+              for el in root.findall("sm:url/sm:loc", ns)
+              if el.text and el.text.strip()
+          ]
+
+          event_name = os.environ.get("EVENT_NAME", "")
+          bootstrap_files = {
+              ".github/workflows/indexnow.yml",
+              "1005c4f8da3b1218c8c8f6ef61bf203e.txt",
+              "sitemap.xml",
+          }
+
+          submit_all = event_name == "workflow_dispatch"
+          changed = set()
+
+          if not submit_all:
+              before = os.environ.get("BEFORE_SHA", "")
+              after = os.environ.get("AFTER_SHA", "")
+              if before and after and before != "0" * 40:
+                  try:
+                      output = subprocess.check_output(
+                          ["git", "diff", "--name-only", before, after],
+                          text=True,
+                      )
+                      changed = {line.strip() for line in output.splitlines() if line.strip()}
+                  except subprocess.CalledProcessError:
+                      submit_all = True
+              else:
+                  submit_all = True
+
+          if changed & bootstrap_files:
+              submit_all = True
+
+          if submit_all:
+              urls = sitemap_urls
+          else:
+              sitemap_set = set(sitemap_urls)
+              urls = []
+              for path in sorted(changed):
+                  if not path.endswith(".html") or "/" in path:
+                      continue
+                  url = base if path == "index.html" else base + path
+                  if url in sitemap_set:
+                      urls.append(url)
+
+          if not urls:
+              print("No canonical URLs changed; nothing to submit.")
+              raise SystemExit(0)
+
+          payload = {
+              "host": host,
+              "key": key,
+              "keyLocation": key_location,
+              "urlList": urls,
+          }
+
+          request = urllib.request.Request(
+              "https://www.bing.com/indexnow",
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Content-Type": "application/json; charset=utf-8",
+                  "User-Agent": "MaximumRoofing-IndexNow/1.0",
+              },
+              method="POST",
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              status = response.getcode()
+              body = response.read().decode("utf-8", errors="replace")
+
+          print(f"Submitted {len(urls)} URL(s) to Bing IndexNow. HTTP {status}.")
+          if body:
+              print(body[:1000])
+          if status not in (200, 202):
+              raise SystemExit(f"Unexpected IndexNow response: HTTP {status}")
+          PY
