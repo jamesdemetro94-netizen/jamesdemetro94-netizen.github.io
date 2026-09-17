@@ -842,9 +842,19 @@
     }
   </style>
   <link rel="stylesheet" href="assets/project-gallery.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<style id="mr-accessibility-cleanup">
+.mr-skip-link{position:fixed;top:12px;left:12px;z-index:99999;background:#fff;color:#12233b;border:3px solid #e25c1c;padding:12px 18px;border-radius:6px;transform:translateY(-180%)}
+.mr-skip-link:focus{transform:translateY(0)}
+.form-group label{display:block;font-weight:600;margin-bottom:6px}
+.footer-col h2{font-size:1rem;color:white;margin-bottom:18px}
+.nav-dropdown:focus-within .dropdown-menu{display:block}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #e25c1c;outline-offset:3px}
+</style>
 </head>
 
 <body>
+<a class="mr-skip-link" href="#main-content">Skip to main content</a>
   <header>
     <nav class="container navbar">
       <a href="/" class="logo">MAXIMUM<span>ROOFING</span></a>
@@ -909,6 +919,7 @@
 </div>
     </nav>
   </header>
+<main id="main-content" tabindex="-1">
 
   <section class="hero">
     <div class="container">
@@ -1470,11 +1481,11 @@
           <input type="hidden" name="form-name" value="contact">
           <p style="display:none"><label>Don't fill this out: <input name="bot-field"></label></p>
 
-          <div class="form-group"><input type="text" name="name" placeholder="Full Name" required></div>
-          <div class="form-group"><input type="email" name="email" placeholder="Email Address" required></div>
-          <div class="form-group"><input type="tel" name="phone" placeholder="Phone Number" required></div>
+          <div class="form-group"><label for="estimate-name">Full Name</label><input type="text" id="estimate-name" name="name" placeholder="Full Name" required></div>
+          <div class="form-group"><label for="estimate-email">Email Address</label><input type="email" id="estimate-email" name="email" placeholder="Email Address" required></div>
+          <div class="form-group"><label for="estimate-phone">Phone Number</label><input type="tel" id="estimate-phone" name="phone" placeholder="Phone Number" required></div>
           <div class="form-group">
-            <select name="service">
+            <label for="estimate-service">Service Needed</label><select id="estimate-service" name="service">
               <option value="">Select Service Needed</option>
               <option value="Roof Repair">Roof Repair</option>
               <option value="Commercial Roofing">Commercial Roofing</option>
@@ -1492,25 +1503,26 @@
               <option value="Insurance Documentation">Insurance Documentation</option>
             </select>
           </div>
-          <div class="form-group"><textarea name="message" rows="4" placeholder="Tell us about your project..."></textarea></div>
+          <div class="form-group"><label for="estimate-message">Project Details</label><textarea id="estimate-message" name="message" rows="4" placeholder="Tell us about your project..."></textarea></div>
           <button type="submit" id="submitBtn" class="btn-primary" style="width:100%;">Submit Request →</button>
         </form>
       </div>
     </div>
   </section>
 
+</main>
   <footer>
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <h4>Maximum Roofing</h4>
+          <h2>Maximum Roofing</h2>
           <p>Residential and commercial roofing contractor serving Staten Island, New York.</p>
           <a href="#staten-island-roofing-contractor">About Us</a>
           <a href="service-areas.html">Service Areas</a>
           <a href="roofing-warranties.html">Roofing Warranties</a>
         </div>
         <div class="footer-col">
-          <h4>Roofing Services</h4>
+          <h2>Roofing Services</h2>
           <a href="roof-repair.html">Roof Repair</a>
           <a href="roof-replacement.html">Roof Replacement</a>
           <a href="flat-roof-repair.html">Flat Roof Repair</a>
@@ -1519,7 +1531,7 @@
           <a href="emergency-roof-repair.html">Emergency Roof Repair</a>
         </div>
         <div class="footer-col">
-          <h4>Roof Systems</h4>
+          <h2>Roof Systems</h2>
           <a href="tpo-roofing.html">TPO Roofing</a>
           <a href="epdm-roofing.html">EPDM Roofing</a>
           <a href="torch-down-roofing.html">Torch Down Roofing</a>
@@ -1530,7 +1542,7 @@
           <a href="copper-roofing.html">Copper Roofing</a>
         </div>
         <div class="footer-col">
-          <h4>Exterior Services</h4>
+          <h2>Exterior Services</h2>
           <a href="gutters.html">Gutters</a>
           <a href="skylights.html">Skylights</a>
           <a href="chimney-flashing.html">Chimney Flashing</a>
@@ -1539,7 +1551,7 @@
           <a href="vinyl-siding.html">Vinyl Siding</a>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h2>Contact</h2>
           <a href="tel:+17323953945">📞 (732) 395-3945</a>
           <a href="mailto:jamesleo@maximumroofing.us">✉️ jamesleo@maximumroofing.us</a>
           <span style="display:block;color:#a0aec0;font-size:.9rem;margin-bottom:10px;">📍 11 John St, Staten Island, NY 10302</span>
@@ -1554,7 +1566,9 @@
   <script>
     document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
       anchor.addEventListener('click', function(e) {
-        var target = document.querySelector(this.getAttribute('href'));
+        var href = this.getAttribute('href');
+        if (href === '#' || this.classList.contains('mr-skip-link')) return;
+        var target = document.querySelector(href);
         if (target) {
           e.preventDefault();
           target.scrollIntoView({ behavior: 'smooth' });
