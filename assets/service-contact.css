@@ -1,0 +1,28 @@
+/* Shared contact and project layouts for the two service pages. */
+.page-breadcrumb{justify-content:flex-start;padding-top:20px;padding-bottom:16px;gap:10px;font-size:.9rem}
+.skip-link{position:fixed;top:8px;left:8px;z-index:100;background:white;padding:12px;transform:translateY(-200%)}
+.skip-link:focus{transform:none}
+[id]{scroll-margin-top:155px}
+.inquiry-card label{display:block;font-size:.94rem;font-weight:700}
+.inquiry-card input,.inquiry-card textarea{display:block;margin-top:5px;min-width:0}
+.inquiry-card form{gap:12px}
+.inquiry-card .inquiry-fallback,.hero .inquiry-card p{font-size:.92rem;line-height:1.5}
+.inquiry-fallback{margin-top:16px;margin-bottom:0}
+.inquiry-status:empty{display:none}
+.inquiry-status{padding:12px;background:#f0f4f8;border-radius:8px;margin:0}
+.inquiry-card button:disabled{opacity:.55;cursor:not-allowed}
+.hero .urgent-note{font-size:.95rem;margin-top:22px}
+.project-story figure{margin:0}
+.project-story img{height:260px;width:100%;object-fit:contain;background:#f1f4f8;border-radius:10px}
+.project-story figcaption{font-size:.88rem;line-height:1.5;color:var(--muted);margin-top:10px}
+.project-story h3{margin-top:22px}
+.project-followup,.contact-followup{margin-top:24px}
+.process-list{padding-left:24px;margin:18px 0 24px}
+.process-list li{margin:12px 0;color:var(--muted)}
+.dark .btn-outline{color:white;border-color:white}
+.mobile-contact{display:none}
+a:focus-visible,button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #1967d2;outline-offset:4px}
+@media(max-width:860px){header{position:static}[id]{scroll-margin-top:20px}.hero{padding-top:32px}.inquiry-card{padding:22px}.hero-grid>*,.grid-2>*{min-width:0}body{padding-bottom:78px}.mobile-contact{position:fixed;bottom:0;left:0;right:0;z-index:60;display:flex;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:#fff;box-shadow:0 -3px 14px #12233b22}.mobile-contact a{flex:1;display:flex;align-items:center;justify-content:center;text-align:center;background:var(--primary);color:#fff;text-decoration:none;border-radius:8px;padding:12px 8px;font-size:.9rem;font-weight:800}.mobile-contact a+a{background:var(--accent)}.topbar a{overflow-wrap:anywhere}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.table-scroll{max-width:100%;overflow-x:auto;margin:18px 0}.table-scroll table{margin:0}.inquiry-card input,.inquiry-card textarea{font-weight:400}.table-scroll:focus-visible{outline:3px solid #1967d2;outline-offset:4px}
