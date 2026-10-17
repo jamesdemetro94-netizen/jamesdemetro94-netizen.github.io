@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">Commercial low-slope roof condition and restoration concept</title>
+  <desc id="desc">A split technical illustration showing a weathered multi-ply roof with water moving into wet yellow insulation above a corrugated steel deck, alongside a clean white coated roof surface and application roller.</desc>
+  <defs>
+    <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#f4f7fa"/></linearGradient>
+    <linearGradient id="sun" x2="1" y2="1"><stop stop-color="#fff5c2" stop-opacity=".9"/><stop offset="1" stop-color="#fff5c2" stop-opacity="0"/></linearGradient>
+    <linearGradient id="deckL" x2="0" y2="1"><stop stop-color="#53677b"/><stop offset="1" stop-color="#26394c"/></linearGradient>
+    <linearGradient id="deckR" x2="0" y2="1"><stop stop-color="#7d8d9b"/><stop offset="1" stop-color="#3b4e60"/></linearGradient>
+    <linearGradient id="wetIns" x2="0" y2="1"><stop stop-color="#f9dc6d"/><stop offset=".45" stop-color="#e8b928"/><stop offset="1" stop-color="#bd8e18"/></linearGradient>
+    <linearGradient id="coat" x2="0" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#e4edf4"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#dce5ed" stroke-width="1"/></pattern>
+    <pattern id="fibers" width="26" height="21" patternUnits="userSpaceOnUse"><path d="M2 6l8 5m4-8 8 6M5 19l7-5m7 4 5-7" stroke="#8e6a11" stroke-opacity=".45" stroke-width="1.4"/></pattern>
+    <pattern id="steel" width="96" height="36" patternUnits="userSpaceOnUse"><path d="M0 29h12l12-19h28l12 19h32" fill="none" stroke="#192d40" stroke-width="5"/><path d="M0 32h12l12-19h28l12 19h32" fill="none" stroke="#91a3b4" stroke-width="2"/></pattern>
+    <clipPath id="leftTop"><polygon points="88,338 638,225 785,304 237,432"/></clipPath>
+    <clipPath id="rightTop"><polygon points="813,304 1368,210 1518,293 962,408"/></clipPath>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="180%"><feGaussianBlur stdDeviation="17"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto"><path d="M0 0L10 5 0 10z" fill="#2488c4"/></marker>
+  </defs>
+  <rect width="1600" height="980" rx="24" fill="url(#paper)"/>
+  <rect width="1600" height="980" rx="24" fill="url(#grid)" opacity=".48"/>
+  <path d="M800 92V888" stroke="#b8c6d2" stroke-width="2" stroke-dasharray="5 10"/>
+  <path d="M1050 90L1550 300 1298 376Z" fill="url(#sun)"/>
+  <circle cx="1452" cy="120" r="34" fill="#f7c94b" opacity=".95"/>
+  <g stroke="#e9b633" stroke-width="3" opacity=".65">
+    <path d="M1452 64V38M1452 202v-25M1395 120h-27M1537 120h-27M1412 80l-19-19M1511 178l-19-19M1492 80l19-19M1393 178l19-19"/>
+  </g>
+  <ellipse cx="440" cy="680" rx="410" ry="58" fill="#26394c" opacity=".16" filter="url(#softShadow)"/>
+  <ellipse cx="1175" cy="655" rx="404" ry="56" fill="#26394c" opacity=".13" filter="url(#softShadow)"/>
+
+  <!-- Weathered multi-ply assembly -->
+  <g stroke-linejoin="round">
+    <path d="M237 432L785 304V409L237 538Z" fill="#725345" stroke="#26394c" stroke-width="3"/>
+    <path d="M237 457L785 329" fill="none" stroke="#d3b7a2" stroke-width="7"/>
+    <path d="M237 479L785 351" fill="none" stroke="#493c39" stroke-width="7"/>
+    <path d="M237 502L785 374" fill="none" stroke="#c29b78" stroke-width="7"/>
+    <path d="M237 523L785 395" fill="none" stroke="#3d3940" stroke-width="6"/>
+    <path d="M237 538L785 409 785 494 237 622Z" fill="url(#wetIns)" stroke="#26394c" stroke-width="3"/>
+    <path d="M237 538L785 409 785 494 237 622Z" fill="url(#fibers)" opacity=".83"/>
+    <path d="M237 622L785 494V574L237 701Z" fill="url(#deckL)" stroke="#26394c" stroke-width="3"/>
+    <path d="M237 622L785 494V574L237 701Z" fill="url(#steel)" opacity=".82"/>
+    <path d="M237 701L785 574 785 622 237 748Z" fill="#24394d" stroke="#26394c" stroke-width="3"/>
+    <polygon points="88,338 638,225 785,304 237,432" fill="#7c6150" stroke="#26394c" stroke-width="4"/>
+    <g clip-path="url(#leftTop)">
+      <path d="M78 348L640 229 800 313 238 447Z" fill="#826450"/>
+      <path d="M102 371L255 340 300 366 145 402Z" fill="#59616a" opacity=".9"/>
+      <path d="M341 340L485 308 525 329 382 365Z" fill="#5d6469" opacity=".9"/>
+      <path d="M515 298L624 276 669 298 558 322Z" fill="#73706b" opacity=".9"/>
+      <path d="M119 355l23-5 14 7-20 9m82-25 25-7 15 8-18 8m105-39 24-6 10 8-18 9m101-40 24-6 16 10-21 9m70-39 19-5 14 8-15 9" fill="none" stroke="#302e30" stroke-width="5"/>
+      <path d="M183 330c36-8 73-16 112-23 20-4 33 12 17 20-29 14-82 24-118 20-29-3-38-10-11-17z" fill="#68badf" opacity=".72" stroke="#2789bf" stroke-width="3"/>
+      <path d="M468 280c29-7 53-11 79-13 21-1 35 14 15 22-23 9-58 15-84 12-29-3-31-14-10-21z" fill="#88c9e5" opacity=".8" stroke="#2789bf" stroke-width="3"/>
+      <path d="M150 325l18-18 10 8 21-23m111 25 21-20 12 8 19-26m75-5 17-17 14 8 15-22m75-4 17-18 15 8 14-20" fill="none" stroke="#332d2b" stroke-width="4"/>
+      <path d="M306 315c-12 39-9 77-4 113M532 270c-11 42-7 83-3 122M628 299c-9 35-4 70 1 101" fill="none" stroke="#238bc5" stroke-width="5" stroke-dasharray="10 10" marker-end="url(#arrow)"/>
+      <circle cx="302" cy="354" r="7" fill="#43a9da"/><circle cx="304" cy="380" r="5" fill="#43a9da"/>
+      <circle cx="529" cy="309" r="7" fill="#43a9da"/><circle cx="533" cy="344" r="5" fill="#43a9da"/>
+      <path d="M250 548c55-14 110-25 165-38m54 30 68-18m-236 57 58-14m194-46 84-21" fill="none" stroke="#f6efcf" stroke-width="4" opacity=".7"/>
+    </g>
+  </g>
+
+  <!-- Restored assembly and coating application -->
+  <g stroke-linejoin="round">
+    <path d="M962 408L1518 293V392L962 522Z" fill="#dfe8ee" stroke="#26394c" stroke-width="3"/>
+    <path d="M962 430L1518 315" stroke="#fff" stroke-width="12"/>
+    <path d="M962 454L1518 339" stroke="#aebdca" stroke-width="4"/>
+    <path d="M962 475L1518 360" stroke="#fff" stroke-width="8"/>
+    <path d="M962 522L1518 392V488L962 618Z" fill="#f1d577" stroke="#26394c" stroke-width="3"/>
+    <path d="M962 522L1518 392V488L962 618Z" fill="url(#fibers)" opacity=".32"/>
+    <path d="M962 618L1518 488V574L962 705Z" fill="url(#deckR)" stroke="#26394c" stroke-width="3"/>
+    <path d="M962 618L1518 488V574L962 705Z" fill="url(#steel)" opacity=".8"/>
+    <path d="M962 705L1518 574V623L962 753Z" fill="#24394d" stroke="#26394c" stroke-width="3"/>
+    <polygon points="813,304 1368,210 1518,293 962,408" fill="url(#coat)" stroke="#26394c" stroke-width="4"/>
+    <g clip-path="url(#rightTop)">
+      <path d="M799 313L1370 216 1532 303 959 423Z" fill="url(#coat)"/>
+      <path d="M853 309L1384 222" fill="none" stroke="#cad7e0" stroke-width="3"/>
+      <path d="M900 333L1430 245" fill="none" stroke="#fff" stroke-width="4" opacity=".9"/>
+      <path d="M1012 358L1477 281" fill="none" stroke="#c8d6df" stroke-width="2" opacity=".8"/>
+      <path d="M851 288L1372 200 1454 243 930 345Z" fill="#fff" opacity=".65"/>
+      <path d="M1110 272l74-13" stroke="#f4bd39" stroke-width="4" opacity=".72"/>
+      <path d="M1240 250l90-15" stroke="#f4bd39" stroke-width="3" opacity=".54"/>
+    </g>
+  </g>
+  <!-- Roller, tray, and applicator handle -->
+  <g transform="translate(1118 210) rotate(-18)">
+    <path d="M8 65V31Q8 14 24 14H102Q119 14 119 31V43" fill="none" stroke="#344b60" stroke-width="8" stroke-linecap="round"/>
+    <path d="M117 43V78" stroke="#344b60" stroke-width="8" stroke-linecap="round"/>
+    <rect x="90" y="73" width="82" height="24" rx="10" fill="#fff" stroke="#344b60" stroke-width="4"/>
+    <path d="M97 80h68" stroke="#dce7ed" stroke-width="6"/>
+    <path d="M130 99l-38 71" stroke="#e25c1c" stroke-width="7" stroke-linecap="round"/>
+    <path d="M88 171l-20 36" stroke="#32495f" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <path d="M1160 385c18 8 37 8 57-2" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".85"/>
+  <!-- Quiet callout leaders and inspection markers, intentionally unlabeled -->
+  <g fill="none" stroke="#47708d" stroke-width="2.5" opacity=".85">
+    <path d="M119 249H228L260 280"/><circle cx="260" cy="280" r="6" fill="#fff"/>
+    <path d="M682 704h45l34-34"/><circle cx="761" cy="670" r="6" fill="#fff"/>
+    <path d="M1420 470h64l36-35"/><circle cx="1520" cy="435" r="6" fill="#fff"/>
+  </g>
+  <g fill="#8ea2b3" opacity=".75">
+    <circle cx="112" cy="250" r="3"/><circle cx="706" cy="704" r="3"/><circle cx="1485" cy="470" r="3"/>
+  </g>
+  <path d="M54 80h56M54 80v56M1546 900h-56M1546 900v-56" fill="none" stroke="#93a7b8" stroke-width="2"/>
+</svg>
