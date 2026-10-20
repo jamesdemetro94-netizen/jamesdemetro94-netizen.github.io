@@ -30,12 +30,15 @@
     .print-assumptions{font-size:8pt}.print-assumptions ul{columns:2;padding-left:18px}.print-assumptions li{break-inside:avoid;padding:2px 0}
     .print-formulas,.print-disclaimers{font-size:8pt;margin-top:10px}.print-formulas ul,.print-disclaimers ul{padding-left:18px}
     .print-formulas li,.print-disclaimers li{margin:2px 0}.pdf-export .print-grid{grid-template-columns:1fr 1fr}
+    .example-callout{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin:0 0 18px;padding:16px 18px;border:1px solid #bfd3e8;border-radius:12px;background:#eef5fc}.example-callout strong,.example-callout span{display:block}.example-callout strong{color:var(--navy)}.example-callout span{font-size:.87rem;color:var(--muted)}
+    .privacy-warning{padding:11px 14px;border:1px solid #e5b34c;border-left:5px solid #c47a00;border-radius:7px;background:#fff8e8;color:#533b12;font-size:.9rem;font-weight:700}.results-next-step{display:flex;justify-content:space-between;align-items:center;gap:14px;flex-wrap:wrap;margin-top:18px;padding:18px;border-radius:12px;background:#edf4fa}.results-next-step p{margin:0;max-width:540px}.results-next-step strong{display:block;color:var(--navy)}
     @media(max-width:900px){.three-results{grid-template-columns:1fr 1fr}}
     @media(max-width:620px){.three-results{grid-template-columns:1fr}.compact-outs{grid-template-columns:1fr}.winner-row{display:grid;gap:7px}.advanced .field-grid{grid-template-columns:1fr}}
   </style></head><body><a class="skip" href="#calculator">Skip to calculator</a><div class="top"><div class="container"><span>Commercial roof planning resource · NY · NJ · CT</span><span><a href="tel:+17323953945">Maximum Roofing · (732) 395-3945</a></span></div></div><header class="header"><div class="container nav"><a class="brand" href="index.html">MAXIMUM<span>ROOFING</span></a><nav class="links" aria-label="Main navigation"><a href="commercial-roofing.html">Commercial Roofing</a><a href="commercial-roofing-planning-resources.html">Planning Resources</a><a class="btn alt" href="#cite">Cite this tool</a></nav></div></header><main id="main"><section class="hero"><div class="container"><nav class="crumb" aria-label="Breadcrumb"><a href="index.html">Home</a> / <a href="commercial-roofing.html">Commercial Roofing</a> / Lifecycle Calculator</nav><div class="eyebrow">Free interactive planning tool · shareable scenarios</div><h1>Commercial Roof Lifecycle Cost Calculator</h1><p class="lead">Compare repair-as-needed, replacement, and restoration over a selectable 5-, 10-, 15-, or 25-year horizon. Enter your own project assumptions, create a scenario link, export a worksheet, or embed and cite this resource.</p><div class="actions"><a class="btn" href="#calculator">Start a scenario</a><a class="btn alt" href="commercial-roof-lifecycle-guide.html">Read the complete decision guide</a></div><p class="note">No Maximum Roofing project-cost dataset is used by this calculator. Outputs are estimates based on values entered by the visitor; they are not bids, engineering assessments, code determinations, or guarantees.</p></div></section>    <section id="calculator" class="soft"><div class="container">
 
       <div class="calc-grid">
 <form class="panel" id="lifecycle-form">
+          <div class="example-callout"><div><strong>Want to see how the comparison works?</strong><span>Load a fictional example with clearly labeled assumptions, then edit every value. It is not a project record or pricing guide.</span></div><button class="btn alt" type="button" id="loadExample">Load example scenario</button></div>
           <div class="field-grid">
             <h3 class="group-title">Facility context</h3>
             <div class="field"><label for="jurisdiction">State / city <span class="optional">optional</span></label><select id="jurisdiction" name="jurisdiction"><option value="">Choose state / city</option><option>New York City</option><option>New York State outside NYC</option><option>New Jersey</option><option>Connecticut</option></select><small>Context only; it does not change modeled costs or determine code compliance.</small></div>
@@ -55,13 +58,14 @@
             <div class="field"><label for="replaceRepairs">Annual repairs after replacement ($/year) <span class="optional">default $0</span></label><input id="replaceRepairs" name="replaceRepairs" type="number" min="0" step="100" inputmode="decimal" value="0"><small>$0 means no post-project repair estimate has been entered.</small></div>
             <div class="field"><label for="replaceDays">Disruption days per year after replacement <span class="optional">default 0</span></label><input id="replaceDays" name="replaceDays" type="number" min="0" step="1" inputmode="numeric" value="0"><small>Zero means no post-project disruption estimate has been entered.</small></div>
             <div class="field"><label for="replaceInsuranceSavings">Written annual insurance savings ($/year) <span class="optional">default $0</span></label><input id="replaceInsuranceSavings" name="replaceInsuranceSavings" type="number" min="0" step="50" inputmode="decimal" value="0"><small>Use only when supported by a written insurer or broker estimate.</small></div>
+            <div class="field"><label for="replaceEnergy">Estimated annual energy savings after replacement ($/year) <span class="optional">default $0</span></label><input id="replaceEnergy" name="replaceEnergy" type="number" min="0" step="100" inputmode="decimal" value="0"><small>Use a written, building-specific estimate; savings default to zero.</small></div>
 
             <h3 class="group-title">Option B · Restoration</h3>
             <div class="field"><label for="restoreCost">Restoration cost ($/sq ft) <span class="optional">default $0</span></label><input id="restoreCost" name="restoreCost" type="number" min="0" step="0.01" inputmode="decimal" value="0"><small>Replace this placeholder with the project proposal rate.</small></div>
             <div class="field"><label for="restoreRepairs">Annual repairs after restoration ($/year) <span class="optional">default $0</span></label><input id="restoreRepairs" name="restoreRepairs" type="number" min="0" step="100" inputmode="decimal" value="0"><small>$0 means no post-project repair estimate has been entered.</small></div>
             <div class="field"><label for="restoreDays">Disruption days per year after restoration <span class="optional">default 0</span></label><input id="restoreDays" name="restoreDays" type="number" min="0" step="1" inputmode="numeric" value="0"><small>Zero means no post-project disruption estimate has been entered.</small></div>
             <div class="field"><label for="restoreInsuranceSavings">Written annual insurance savings ($/year) <span class="optional">default $0</span></label><input id="restoreInsuranceSavings" name="restoreInsuranceSavings" type="number" min="0" step="50" inputmode="decimal" value="0"><small>Use only when supported by a written insurer or broker estimate.</small></div>
-            <div class="field"><label for="energy">Estimated annual energy savings ($/year) <span class="optional">default $0</span></label><input id="energy" name="energy" type="number" min="0" step="100" inputmode="decimal" value="0"><small>Use a written, building-specific estimate; savings default to zero.</small></div>
+            <div class="field"><label for="energy">Estimated annual energy savings after restoration ($/year) <span class="optional">default $0</span></label><input id="energy" name="energy" type="number" min="0" step="100" inputmode="decimal" value="0"><small>Use a written, building-specific estimate; savings default to zero.</small></div>
           </div>
           <details class="advanced" id="advancedInputs"><summary>Advanced planning assumptions</summary><p class="small-note">The nonzero values below are illustrative placeholder assumptions requested for an example scenario. They are not Maximum Roofing data or published industry averages. Change them to project-specific assumptions. Savings default to $0.</p><div class="field-grid">
             <div class="field"><label for="analysisYears">Comparison horizon</label><select id="analysisYears" name="analysisYears"><option value="5" selected>5 years</option><option value="10">10 years</option><option value="15">15 years</option><option value="25">25 years</option></select><small>Choose the same decision window for all three strategies.</small></div>
@@ -98,10 +102,11 @@
             <div class="out"><span>Restoration IRR vs. baseline</span><strong id="restoreIrr">—</strong></div>
           </div>
           <div class="tool-actions"><button class="btn" type="button" id="pdfSummary">Generate PDF</button><button class="btn alt" type="button" id="shareScenario">Create shareable link</button><button class="btn alt" type="button" id="showEmbed">Get Embed Code</button><button class="btn alt" type="button" id="downloadChart">Download chart SVG</button><button class="btn alt" type="button" id="downloadCsv">Download year-by-year CSV</button></div>
-          <p class="tool-status" id="toolStatus" role="status" aria-live="polite"></p><p class="small-note">Share URLs include entered values. Do not include confidential information.</p>
+          <p class="privacy-warning"><strong>Privacy:</strong> A shared scenario URL contains the values entered in this calculator. Do not share confidential, personal, or sensitive information.</p><p class="tool-status" id="toolStatus" role="status" aria-live="polite"></p>
+          <div class="results-next-step"><p><strong>Comparing real proposals?</strong> Use written scope and inspection findings to check your assumptions. Maximum Roofing can discuss your commercial roof and possible next steps.</p><a class="btn" href="commercial-roofing.html#contact">Talk with Maximum Roofing</a></div>
         </div>      </div>
       <p class="disclaimer" style="margin-top:20px"><strong>How to read this.</strong> The common horizon is selected as 5, 10, 15, or 25 years. Undiscounted totals add annual costs and subtract user-entered terminal residual values. NPV discounts each year’s net cash flow at the editable rate. Only annual repair estimates escalate by their relevant editable rate; disruption cost stays flat and baseline expected event cost is probability × event cost per year. Project costs occur at year 0 and repeat if an entered service life expires before the comparison horizon. Insurance savings reduce costs only when supported by written estimates; energy savings are visitor inputs and grow only by the editable energy-price assumption. Exposure value and moisture percentage never enter the cost formulas.</p>
-      <p class="note">Taxes, financing, and accounting treatment are not modeled. Consult your tax adviser. The discount rate, escalation, event probability, event cost, service life, and residual values are user-editable scenario assumptions, not forecasts or industry benchmarks. The calculator does not determine restoration suitability or predict roof life.</p>
+      <p class="note">Energy savings are entered separately for replacement and restoration; both default to $0 and should be supported by a building-specific estimate. Taxes, financing, and accounting treatment are not modeled. Consult your tax adviser. The discount rate, escalation, event probability, event cost, service life, and residual values are user-editable scenario assumptions, not forecasts or industry benchmarks. The calculator does not determine restoration suitability or predict roof life.</p>
       <p class="small-note">Cite or link to this standalone calculator page. Shared scenario URLs contain user inputs.</p>
     </div></section>
 
@@ -130,7 +135,7 @@
 <script>
   (()=>{
     const form=document.getElementById('lifecycle-form');
-    const ids=['jurisdiction','area','age','use','moisture','exposure','baseRepairs','baseDays','dayCost','replaceCost','replaceRepairs','replaceDays','replaceInsuranceSavings','restoreCost','restoreRepairs','restoreDays','restoreInsuranceSavings','energy','analysisYears','discountRate','baseEscalation','postEscalation','replaceLife','restoreLife','baseEventProbability','baseEventCost','energyInflation','baseResidual','replaceResidual','restoreResidual'];
+    const ids=['jurisdiction','area','age','use','moisture','exposure','baseRepairs','baseDays','dayCost','replaceCost','replaceRepairs','replaceDays','replaceInsuranceSavings','replaceEnergy','restoreCost','restoreRepairs','restoreDays','restoreInsuranceSavings','energy','analysisYears','discountRate','baseEscalation','postEscalation','replaceLife','restoreLife','baseEventProbability','baseEventCost','energyInflation','baseResidual','replaceResidual','restoreResidual'];
     const publicPage='https://maximumroofing.us/commercial-roof-lifecycle-calculator.html';
     const status=document.getElementById('toolStatus');
     let activeOverrides={};
@@ -159,7 +164,8 @@
       const repairs=num(prefix+'Repairs')*repairScale*grow;
       const disruption=num(prefix+'Days')*num('dayCost');
       const insurance=num(prefix+'InsuranceSavings');
-      const energy=prefix==='restore'?num('energy')*Math.pow(1+rate('energyInflation'),year-1):0;
+      const energyId=prefix==='replace'?'replaceEnergy':'energy';
+      const energy=num(energyId)*Math.pow(1+rate('energyInflation'),year-1);
       return {repairs,disruption,insurance,energy,total:repairs+disruption-insurance-energy};
     };
     function model(which,projectScale,repairScale,h){
@@ -344,6 +350,7 @@
       replaceRepairs:'Enter estimated annual repairs after replacement; the post-project escalation rate applies.',
       replaceDays:'Enter expected disruption days per year after replacement.',
       replaceInsuranceSavings:'Enter savings only when a written insurer or broker estimate supports the amount.',
+      replaceEnergy:'Enter estimated year-one energy savings after replacement. Use a written, building-specific estimate; savings default to zero.',
       restoreCost:'Enter the restoration proposal rate. The project cost is roof area times this rate.',
       restoreRepairs:'Enter estimated annual repairs after restoration; the post-project escalation rate applies.',
       restoreDays:'Enter expected disruption days per year after restoration.',
@@ -365,6 +372,13 @@
     ids.forEach(id=>{const el=byId(id),label=document.querySelector('label[for="'+id+'"]'),tip=tooltips[id]||'Optional project-specific input. Edit or leave at the displayed placeholder.';el.title=tip;if(label)label.title=tip;});
     const query=new URLSearchParams(location.search);
     ids.forEach(id=>{if(query.has(id))byId(id).value=query.get(id);});
+    byId('loadExample').addEventListener('click',()=>{
+      const example={jurisdiction:'New Jersey',area:'10000',age:'',use:'Warehouse / distribution',moisture:'',exposure:'0',baseRepairs:'12000',baseDays:'0',dayCost:'0',replaceCost:'12',replaceRepairs:'1500',replaceDays:'0',replaceInsuranceSavings:'0',replaceEnergy:'1500',restoreCost:'5.5',restoreRepairs:'2500',restoreDays:'0',restoreInsuranceSavings:'0',energy:'1500',analysisYears:'10',discountRate:'6',baseEscalation:'8',postEscalation:'3',replaceLife:'25',restoreLife:'10',baseEventProbability:'0',baseEventCost:'0',energyInflation:'3',baseResidual:'0',replaceResidual:'0',restoreResidual:'0'};
+      Object.entries(example).forEach(([id,value])=>{byId(id).value=value;});
+      byId('advancedInputs').open=true;
+      update();
+      status.textContent='Fictional example loaded. These values are for demonstrating the calculator only—not project records, market prices, or recommended assumptions. Replace them with project-specific information.';
+    });
     if(query.get('embed')==='1')document.body.classList.add('embed-mode');
     byId('pdfSummary').addEventListener('click',async()=>{
       if(!valid()){update();status.textContent='Enter roof area before generating the PDF.';return;}
